@@ -1,0 +1,7 @@
+pymongo>=4.6
+requests>=2.31
+# Para MongoDB Atlas (conexión SRV):
+# pip install "pymongo[srv]"
+# Opcional (API REST):
+fastapi>=0.109
+uvicorn>=0.27

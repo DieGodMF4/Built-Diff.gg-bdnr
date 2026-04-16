@@ -1,0 +1,4012 @@
+[
+  {
+    "item_id": "2065",
+    "name": "Shurelya's Battlesong",
+    "stats": {
+      "FlatMagicDamageMod": 50,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "ap": 50,
+      "movespeed": 0.04
+    },
+    "item_type": 3,
+    "subclass": 102,
+    "gold": 2200,
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": true,
+    "base_weight": 1.0,
+    "description_clean": "50 Ability Power15 Ability Haste4% Move Speed125% Base Mana RegenInspiring SpeechGrant nearby allies 30% Move Speed for 4 seconds.",
+    "_debug_subclass": "support_util",
+    "_debug_type": "support"
+  },
+  {
+    "item_id": "2501",
+    "name": "Overlord's Bloodmail",
+    "stats": {
+      "FlatHPPoolMod": 550,
+      "FlatPhysicalDamageMod": 30
+    },
+    "stats_internal": {
+      "hp": 550,
+      "ad": 30
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3300,
+    "tags": [
+      "Health",
+      "Damage"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "30 Attack Damage550 HealthTyrannyGain 2.5% of your bonus Health as Attack Damage. RetributionGain up to 12% increased Attack Damage based on your percent missing Health.",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "2502",
+    "name": "Unending Despair",
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatArmorMod": 50
+    },
+    "stats_internal": {
+      "hp": 400,
+      "armor": 50
+    },
+    "item_type": 2,
+    "subclass": 120,
+    "gold": 2800,
+    "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [
+      0
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "400 Health50 Armor15 Ability HasteAnguishEvery 4 seconds while in combat with champions, deal magic damage to nearby enemy champions and heal for 250% of the damage dealt.",
+    "_debug_subclass": "tank_armor",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "2503",
+    "name": "Blackfire Torch",
+    "stats": {
+      "FlatMPPoolMod": 600,
+      "FlatMagicDamageMod": 80
+    },
+    "stats_internal": {
+      "mana": 600,
+      "ap": 80
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 2800,
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": true,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "80 Ability Power600 Mana20 Ability HasteBaleful BlazeDamaging Abilities deals bonus magic damage for 3 seconds.BlackfireFor each enemy champion, epic and large monster affected by your Baleful Blaze, ",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "2504",
+    "name": "Kaenic Rookern",
+    "stats": {
+      "FlatSpellBlockMod": 80,
+      "FlatHPPoolMod": 400
+    },
+    "stats_internal": {
+      "mr": 80,
+      "hp": 400
+    },
+    "item_type": 2,
+    "subclass": 121,
+    "gold": 2900,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen"
+    ],
+    "effects": [
+      1
+    ],
+    "counters": [
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "400 Health80 Magic Resist100% Base Health RegenMagebaneAfter not taking magic damage for 15 seconds, gain a magic shield.",
+    "_debug_subclass": "tank_mr",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "2510",
+    "name": "Dusk and Dawn",
+    "stats": {
+      "FlatHPPoolMod": 350,
+      "FlatMagicDamageMod": 70,
+      "PercentAttackSpeedMod": 0.25
+    },
+    "stats_internal": {
+      "hp": 350,
+      "ap": 70,
+      "attack_speed": 0.25
+    },
+    "item_type": 0,
+    "subclass": 112,
+    "gold": 3100,
+    "tags": [
+      "Health",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "350 Health70 Ability Power20 Ability Haste25% Attack SpeedSpellblade (0s)After using an Ability, your next Attack deals  bonus magic damage On-Hit and applies On-Hit effects an additional time.",
+    "_debug_subclass": "on_hit",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "2512",
+    "name": "Fiendhunter Bolts",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "PercentAttackSpeedMod": 0.45,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "attack_speed": 0.45,
+      "movespeed": 0.04
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 2650,
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "45% Attack Speed25% Critical Strike Chance4% Move SpeedNight VigilGain 30 Ultimate Ability Haste.Opening BarrageAfter casting your Ultimate, your next 3 basic attacks gain 50% Attack Speed and Critica",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "2517",
+    "name": "Endless Hunger",
+    "stats": {
+      "FlatPhysicalDamageMod": 65
+    },
+    "stats_internal": {
+      "ad": 65
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3100,
+    "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "Tenacity",
+      "AbilityHaste"
+    ],
+    "effects": [
+      3,
+      7,
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "65 Attack Damage5% Omnivamp20% TenacityFamineGain  Ability Haste.FeastWhen a champion that you damaged within 3 seconds dies, gain 15% Omnivamp for 8 seconds.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "2520",
+    "name": "Bastionbreaker",
+    "stats": {
+      "FlatPhysicalDamageMod": 55
+    },
+    "stats_internal": {
+      "ad": 55
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3200,
+    "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "effects": [
+      4,
+      9
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Attack Damage22 Lethality15 Ability HasteShaped Charge (0s)Dealing Ability damage to a Champion or Epic Monster deals an additional  true damage.SabotageTaking down a champion within 3 seconds of d",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "2522",
+    "name": "Actualizer",
+    "stats": {
+      "FlatMPPoolMod": 300,
+      "FlatMagicDamageMod": 90
+    },
+    "stats_internal": {
+      "mana": 300,
+      "ap": 90
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 2800,
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": true,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "90 Ability Power300 Mana10 Ability HasteMana Made Real (0s)For 8 seconds, your mana is Empowered. While Empowered, your spells cost 100% more Mana, you gain  increased Ability damage, Shielding, and H",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "2523",
+    "name": "Hexoptics C44",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "FlatPhysicalDamageMod": 55
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "ad": 55
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 2800,
+    "tags": [
+      "Damage",
+      "CriticalStrike"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Attack Damage25% Critical Strike ChanceMagnificationDeal up to 10% increased damage with Attacks, based on how far away the enemy is (max damage at 500 range).Arcane AimWhen a champion that you dam",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "2524",
+    "name": "Bandlepipes",
+    "stats": {
+      "FlatSpellBlockMod": 20,
+      "FlatHPPoolMod": 200,
+      "FlatArmorMod": 20
+    },
+    "stats_internal": {
+      "mr": 20,
+      "hp": 200,
+      "armor": 20
+    },
+    "item_type": 2,
+    "subclass": 122,
+    "gold": 2300,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AttackSpeed",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "effects": [
+      2,
+      9
+    ],
+    "counters": [
+      0,
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "200 Health15 Ability Haste20 Armor20 Magic ResistFanfareSlowing or Immobilizing an enemy champion grants Fanfare for  seconds. Fanfare grants you 20 Move Speed. While you have Fanfare, nearby allies, ",
+    "_debug_subclass": "tank_general",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "2525",
+    "name": "Protoplasm Harness",
+    "stats": {
+      "FlatHPPoolMod": 600
+    },
+    "stats_internal": {
+      "hp": 600
+    },
+    "item_type": 4,
+    "subclass": 131,
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "NonbootsMovement",
+      "Tenacity",
+      "AbilityHaste"
+    ],
+    "effects": [
+      3,
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "600 Health20 Ability HasteLifeline (0s)Taking damage that would reduce your Health below 30% causes you to gain  maximum Health for 5 seconds, then heal  Health over the duration. While regenerating H",
+    "_debug_subclass": "utility",
+    "_debug_type": "utility"
+  },
+  {
+    "item_id": "3002",
+    "name": "Trailblazer",
+    "stats": {
+      "FlatHPPoolMod": 250,
+      "FlatArmorMod": 40,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "hp": 250,
+      "armor": 40,
+      "movespeed": 0.04
+    },
+    "item_type": 2,
+    "subclass": 120,
+    "gold": 2400,
+    "tags": [
+      "Health",
+      "Armor",
+      "NonbootsMovement"
+    ],
+    "effects": [
+      2
+    ],
+    "counters": [
+      0
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "250 Health40 Armor4% Move SpeedLead the WayWhile moving, build up to 20 bonus Move Speed. At max speed:Create a trail that grants allied champions Move Speed equal to 15% of yours. If you are Melee, y",
+    "_debug_subclass": "tank_armor",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "3003",
+    "name": "Archangel's Staff",
+    "stats": {
+      "FlatMPPoolMod": 600,
+      "FlatMagicDamageMod": 70
+    },
+    "stats_internal": {
+      "mana": 600,
+      "ap": 70
+    },
+    "item_type": 4,
+    "subclass": 130,
+    "gold": 2900,
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": true,
+    "is_tear": true,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "70 Ability Power600 Mana25 Ability HasteAweGain Ability Power equal to 1% bonus Mana.Manaflow (8s, max 5 charges)Landing Abilities grants 5 max Mana (doubled vs. champions).Transforms into Seraph's Em",
+    "_debug_subclass": "mana_item",
+    "_debug_type": "utility"
+  },
+  {
+    "item_id": "3004",
+    "name": "Manamune",
+    "stats": {
+      "FlatMPPoolMod": 500,
+      "FlatPhysicalDamageMod": 35
+    },
+    "stats_internal": {
+      "mana": 500,
+      "ad": 35
+    },
+    "item_type": 4,
+    "subclass": 130,
+    "gold": 2900,
+    "tags": [
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": true,
+    "is_tear": true,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "35 Attack Damage500 Mana15 Ability HasteAweGain  bonus Attack Damage.Manaflow (8s, max 4 charges)Landing Attacks and Abilities grants 3 max Mana (doubled vs. champions).Transforms into Muramana at 360",
+    "_debug_subclass": "mana_item",
+    "_debug_type": "utility"
+  },
+  {
+    "item_id": "3026",
+    "name": "Guardian Angel",
+    "stats": {
+      "FlatArmorMod": 45,
+      "FlatPhysicalDamageMod": 55
+    },
+    "stats_internal": {
+      "armor": 45,
+      "ad": 55
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3200,
+    "tags": [
+      "Armor",
+      "Damage"
+    ],
+    "effects": [],
+    "counters": [
+      0
+    ],
+    "priority": 3,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Attack Damage45 ArmorRebirthUpon taking lethal damage, restores 50% base Health and 100% max Mana after 4 seconds of Stasis.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3031",
+    "name": "Infinity Edge",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "FlatPhysicalDamageMod": 75
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "ad": 75
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 3500,
+    "tags": [
+      "CriticalStrike",
+      "Damage"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 3,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "75 Attack Damage25% Critical Strike Chance30% Critical Strike Damage",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3032",
+    "name": "Yun Tal Wildarrows",
+    "stats": {
+      "FlatPhysicalDamageMod": 50,
+      "PercentAttackSpeedMod": 0.4
+    },
+    "stats_internal": {
+      "ad": 50,
+      "attack_speed": 0.4
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3100,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "50 Attack Damage40% Attack Speed0% Critical Strike ChancePractice Makes LethalOn-Attack, gain Critical Strike Chance permanently up to 25%.FlurryOn-Attacking an enemy champion, gain 30% Attack Speed f",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3033",
+    "name": "Mortal Reminder",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "FlatPhysicalDamageMod": 35
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "ad": 35
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ],
+    "effects": [
+      0,
+      5
+    ],
+    "counters": [
+      2,
+      4
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "35 Attack Damage30% Armor Penetration25% Critical Strike ChanceGrievous WoundsDealing physical damage applies 40% Wounds to enemy champions for 3 seconds.",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3036",
+    "name": "Lord Dominik's Regards",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "FlatPhysicalDamageMod": 35
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "ad": 35
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 3300,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ],
+    "effects": [
+      5
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 3,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "35 Attack Damage35% Armor Penetration25% Critical Strike ChanceGiant SlayerDeal up to 15% bonus damage against champions based on their bonus Health. Maximum damage bonus reached at 1500 bonus Health.",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3046",
+    "name": "Phantom Dancer",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "PercentAttackSpeedMod": 0.65,
+      "PercentMovementSpeedMod": 0.1
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "attack_speed": 0.65,
+      "movespeed": 0.1
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 2650,
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "65% Attack Speed25% Critical Strike Chance10% Move SpeedSpectral WaltzBecome Ghosted.",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3050",
+    "name": "Zeke's Convergence",
+    "stats": {
+      "FlatSpellBlockMod": 25,
+      "FlatHPPoolMod": 300,
+      "FlatArmorMod": 25
+    },
+    "stats_internal": {
+      "mr": 25,
+      "hp": 300,
+      "armor": 25
+    },
+    "item_type": 2,
+    "subclass": 122,
+    "gold": 2200,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AbilityHaste"
+    ],
+    "effects": [
+      2,
+      9
+    ],
+    "counters": [
+      0,
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "300 Health25 Armor25 Magic Resist10 Ability HasteFrostfire TempestCasting your Ultimate summons a storm around you for 5 seconds. The storm deals 30 magic damage per second to enemy champions and Slow",
+    "_debug_subclass": "tank_general",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "3053",
+    "name": "Sterak's Gage",
+    "stats": {
+      "FlatHPPoolMod": 400
+    },
+    "stats_internal": {
+      "hp": 400
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3200,
+    "tags": [
+      "Health",
+      "Damage",
+      "Tenacity"
+    ],
+    "effects": [
+      1,
+      3
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "400 Health20% TenacityThe Claws that CatchGain bonus Attack Damage.LifelineTaking damage that would reduce your Health below 30% grants a decaying Shield for 4.5 seconds.",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3065",
+    "name": "Spirit Visage",
+    "stats": {
+      "FlatSpellBlockMod": 50,
+      "FlatHPPoolMod": 400
+    },
+    "stats_internal": {
+      "mr": 50,
+      "hp": 400
+    },
+    "item_type": 2,
+    "subclass": 121,
+    "gold": 2700,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      9
+    ],
+    "counters": [
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "400 Health50 Magic Resist10 Ability Haste100% Base Health RegenBoundless VitalityHeals and Shields on you are increased by 25%.",
+    "_debug_subclass": "tank_mr",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "3068",
+    "name": "Sunfire Aegis",
+    "stats": {
+      "FlatHPPoolMod": 350,
+      "FlatArmorMod": 50
+    },
+    "stats_internal": {
+      "hp": 350,
+      "armor": 50
+    },
+    "item_type": 2,
+    "subclass": 120,
+    "gold": 2700,
+    "tags": [
+      "Health",
+      "Armor",
+      "Aura",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [
+      0
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "350 Health50 Armor10 Ability HasteImmolateAfter taking or dealing damage, deal magic damage per second to nearby enemies for 3 seconds.",
+    "_debug_subclass": "tank_armor",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "3071",
+    "name": "Black Cleaver",
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatPhysicalDamageMod": 40
+    },
+    "stats_internal": {
+      "hp": 400,
+      "ad": 40
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "40 Attack Damage400 Health20 Ability HasteCarveDealing physical damage to champions reduces their Armor by 6% for 6 seconds. (stacks 5 times).FervorDealing physical damage grants 20 Move Speed for 2 s",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3072",
+    "name": "Bloodthirster",
+    "stats": {
+      "FlatPhysicalDamageMod": 80,
+      "PercentLifeStealMod": 0.15
+    },
+    "stats_internal": {
+      "ad": 80,
+      "lifesteal": 0.15
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3400,
+    "tags": [
+      "Damage",
+      "LifeSteal"
+    ],
+    "effects": [
+      1,
+      7
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "80 Attack Damage15% Life StealIchorshieldConvert excess healing from your Lifesteal to a Shield.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3073",
+    "name": "Experimental Hexplate",
+    "stats": {
+      "FlatHPPoolMod": 450,
+      "FlatPhysicalDamageMod": 40,
+      "PercentAttackSpeedMod": 0.2
+    },
+    "stats_internal": {
+      "hp": 450,
+      "ad": 40,
+      "attack_speed": 0.2
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "40 Attack Damage20% Attack Speed450 HealthHexchargedGain 30 Ultimate Ability Haste.OverdriveAfter casting your Ultimate, gain 50% Attack Speed and 20% Move Speed for 8 seconds.",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3074",
+    "name": "Ravenous Hydra",
+    "stats": {
+      "FlatPhysicalDamageMod": 65,
+      "PercentLifeStealMod": 0.12
+    },
+    "stats_internal": {
+      "ad": 65,
+      "lifesteal": 0.12
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3300,
+    "tags": [
+      "Damage",
+      "LifeSteal",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "effects": [
+      7,
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "65 Attack Damage15 Ability Haste12% Life StealCleaveAttacks deal physical damage to nearby enemies.Ravenous CrescentDeal physical damage to enemies around you. Your Life Steal applies to this damage.",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3075",
+    "name": "Thornmail",
+    "stats": {
+      "FlatHPPoolMod": 150,
+      "FlatArmorMod": 75
+    },
+    "stats_internal": {
+      "hp": 150,
+      "armor": 75
+    },
+    "item_type": 2,
+    "subclass": 120,
+    "gold": 2450,
+    "tags": [
+      "Health",
+      "Armor"
+    ],
+    "effects": [],
+    "counters": [
+      0
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "150 Health75 ArmorThornsWhen struck by an Attack, deal magic damage to the attacker and apply 40% Wounds for 3 seconds if they are a champion.",
+    "_debug_subclass": "tank_armor",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "3078",
+    "name": "Trinity Force",
+    "stats": {
+      "FlatHPPoolMod": 333,
+      "FlatPhysicalDamageMod": 36,
+      "PercentAttackSpeedMod": 0.3
+    },
+    "stats_internal": {
+      "hp": 333,
+      "ad": 36,
+      "attack_speed": 0.3
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3333,
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "36 Attack Damage30% Attack Speed333 Health15 Ability HasteSpellbladeAfter using an Ability, your next Attack deals bonus physical damage On-Hit. QuickenAttacking grants 20 Move Speed for 2 seconds.",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3083",
+    "name": "Warmog's Armor",
+    "stats": {
+      "FlatHPPoolMod": 1000
+    },
+    "stats_internal": {
+      "hp": 1000
+    },
+    "item_type": 4,
+    "subclass": 131,
+    "gold": 3100,
+    "tags": [
+      "Health",
+      "HealthRegen"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 3,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "1000 Health100% Base Health RegenWarmog's Heart If you have 2000 bonus Health and have not taken damage within 8 seconds, restore  Health per second.Warmog's VitalityGain bonus Health equal to 12% of ",
+    "_debug_subclass": "utility",
+    "_debug_type": "utility"
+  },
+  {
+    "item_id": "3084",
+    "name": "Heartsteel",
+    "stats": {
+      "FlatHPPoolMod": 900
+    },
+    "stats_internal": {
+      "hp": 900
+    },
+    "item_type": 4,
+    "subclass": 131,
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "HealthRegen"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "900 Health100% Base Health RegenColossal Consumption (0s) per targetIf an enemy champion is nearby for a few seconds, your next Attack against them deals 70 plus 6% of your max Health as bonus physica",
+    "_debug_subclass": "utility",
+    "_debug_type": "utility"
+  },
+  {
+    "item_id": "3085",
+    "name": "Runaan's Hurricane",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "PercentAttackSpeedMod": 0.4,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "attack_speed": 0.4,
+      "movespeed": 0.04
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 2650,
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "40% Attack Speed25% Critical Strike Chance4% Move SpeedWind's FuryAttacks fire bolts at 2 additional enemies near the target.Each bolt deals physical damage and applies On-Hit effects.",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3087",
+    "name": "Statikk Shiv",
+    "stats": {
+      "FlatPhysicalDamageMod": 45,
+      "PercentAttackSpeedMod": 0.3,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "ad": 45,
+      "attack_speed": 0.3,
+      "movespeed": 0.04
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 2700,
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "45 Attack Damage30% Attack Speed4% Move SpeedElectrosparkAttacks trigger chain lightning On-Hit, dealing magic damage with a cooldown.Electroshock Takedowns within 3 seconds of damaging the target res",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3089",
+    "name": "Rabadon's Deathcap",
+    "stats": {
+      "FlatMagicDamageMod": 130
+    },
+    "stats_internal": {
+      "ap": 130
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 3500,
+    "tags": [
+      "SpellDamage"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 3,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "130 Ability PowerMagical OpusIncreases your total Ability Power by 30%.",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "3091",
+    "name": "Wit's End",
+    "stats": {
+      "FlatSpellBlockMod": 45,
+      "PercentAttackSpeedMod": 0.5
+    },
+    "stats_internal": {
+      "mr": 45,
+      "attack_speed": 0.5
+    },
+    "item_type": 0,
+    "subclass": 112,
+    "gold": 2800,
+    "tags": [
+      "SpellBlock",
+      "AttackSpeed",
+      "OnHit",
+      "Tenacity"
+    ],
+    "effects": [
+      3
+    ],
+    "counters": [
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "50% Attack Speed45 Magic Resist20% TenacityFrayAttacks deal bonus magic damage On-Hit.",
+    "_debug_subclass": "on_hit",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3094",
+    "name": "Rapid Firecannon",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "PercentAttackSpeedMod": 0.35,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "attack_speed": 0.35,
+      "movespeed": 0.04
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 2650,
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "35% Attack Speed25% Critical Strike Chance4% Move SpeedSharpshooterYour Energized Attack deals 40 bonus magic damage and gains 35% bonus Attack Range.",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3097",
+    "name": "Stormrazor",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "FlatPhysicalDamageMod": 50,
+      "PercentAttackSpeedMod": 0.2
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "ad": 50,
+      "attack_speed": 0.2
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 3200,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "50 Attack Damage20% Attack Speed25% Critical Strike ChanceEnergizedMoving and Attacking generates an Energized Attack.BoltYour Energized Attack applies  bonus magic damage and grants 45% Movement Spee",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3100",
+    "name": "Lich Bane",
+    "stats": {
+      "FlatMagicDamageMod": 100,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "ap": 100,
+      "movespeed": 0.04
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 2900,
+    "tags": [
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "100 Ability Power4% Move Speed10 Ability HasteSpellbladeAfter using an Ability, your next Attack deals bonus magic damage On-Hit.",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "3102",
+    "name": "Banshee's Veil",
+    "stats": {
+      "FlatSpellBlockMod": 40,
+      "FlatMagicDamageMod": 105
+    },
+    "stats_internal": {
+      "mr": 40,
+      "ap": 105
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 3000,
+    "tags": [
+      "SpellBlock",
+      "SpellDamage"
+    ],
+    "effects": [
+      1
+    ],
+    "counters": [
+      1
+    ],
+    "priority": 3,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "105 Ability Power40 Magic ResistAnnulGrants a Spell Shield that blocks the next enemy Ability.",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "3107",
+    "name": "Redemption",
+    "stats": {
+      "FlatMagicDamageMod": 30
+    },
+    "stats_internal": {
+      "ap": 30
+    },
+    "item_type": 3,
+    "subclass": 102,
+    "gold": 2300,
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      8,
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": true,
+    "base_weight": 1.0,
+    "description_clean": "30 Ability Power15 Ability Haste100% Base Mana Regen10% Heal and Shield PowerInterventionRestore 150 - 350 Health to allied units and deal 10% max Health true damage to enemy champions after 2.5 secon",
+    "_debug_subclass": "support_util",
+    "_debug_type": "support"
+  },
+  {
+    "item_id": "3109",
+    "name": "Knight's Vow",
+    "stats": {
+      "FlatHPPoolMod": 200,
+      "FlatArmorMod": 40
+    },
+    "stats_internal": {
+      "hp": 200,
+      "armor": 40
+    },
+    "item_type": 2,
+    "subclass": 120,
+    "gold": 2300,
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Armor",
+      "Aura",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [
+      0
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "200 Health40 Armor10 Ability Haste100% Base Health RegenSacrificeWhile near your Worthy ally, take 12% of the damage they receive and heal for 10% of the damage they deal to champions.Pledge (0s)Desig",
+    "_debug_subclass": "tank_armor",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "3110",
+    "name": "Frozen Heart",
+    "stats": {
+      "FlatMPPoolMod": 400,
+      "FlatArmorMod": 75
+    },
+    "stats_internal": {
+      "mana": 400,
+      "armor": 75
+    },
+    "item_type": 2,
+    "subclass": 120,
+    "gold": 2500,
+    "tags": [
+      "Armor",
+      "Mana",
+      "Aura",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [
+      0
+    ],
+    "priority": 2,
+    "is_mana_item": true,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "75 Armor400 Mana20 Ability HasteWinter's CaressReduce the Attack Speed of nearby champions by 20%.",
+    "_debug_subclass": "tank_armor",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "3115",
+    "name": "Nashor's Tooth",
+    "stats": {
+      "FlatMagicDamageMod": 80,
+      "PercentAttackSpeedMod": 0.5
+    },
+    "stats_internal": {
+      "ap": 80,
+      "attack_speed": 0.5
+    },
+    "item_type": 0,
+    "subclass": 112,
+    "gold": 2900,
+    "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "80 Ability Power50% Attack Speed15 Ability HasteIcathian BiteAttacks deal bonus magic damage On-Hit.",
+    "_debug_subclass": "on_hit",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3116",
+    "name": "Rylai's Crystal Scepter",
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatMagicDamageMod": 65
+    },
+    "stats_internal": {
+      "hp": 400,
+      "ap": 65
+    },
+    "item_type": 1,
+    "subclass": 101,
+    "gold": 2600,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Slow"
+    ],
+    "effects": [
+      2
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "65 Ability Power400 HealthRimefrostDamaging Abilities Slow enemies by 30% for 1 second.",
+    "_debug_subclass": "sustained_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "3118",
+    "name": "Malignance",
+    "stats": {
+      "FlatMPPoolMod": 600,
+      "FlatMagicDamageMod": 90
+    },
+    "stats_internal": {
+      "mana": 600,
+      "ap": 90
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 2700,
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": true,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "90 Ability Power600 Mana15 Ability HasteScornGain 20 Ultimate Ability Haste.HatefogDamaging a champion with your Ultimate burns the ground beneath them for 3s, dealing magic damage per second and redu",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "3119",
+    "name": "Winter's Approach",
+    "stats": {
+      "FlatMPPoolMod": 500,
+      "FlatHPPoolMod": 550
+    },
+    "stats_internal": {
+      "mana": 500,
+      "hp": 550
+    },
+    "item_type": 4,
+    "subclass": 130,
+    "gold": 2400,
+    "tags": [
+      "Health",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": true,
+    "is_tear": true,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "550 Health500 Mana15 Ability HasteAweGain  Health.Manaflow (8s, max 4 charges)Landing Attacks and Abilities grant 3 max Mana (doubled vs. champions).Transforms into Fimbulwinter at 360 max Mana.",
+    "_debug_subclass": "mana_item",
+    "_debug_type": "utility"
+  },
+  {
+    "item_id": "3124",
+    "name": "Guinsoo's Rageblade",
+    "stats": {
+      "FlatMagicDamageMod": 30,
+      "FlatPhysicalDamageMod": 30,
+      "PercentAttackSpeedMod": 0.25
+    },
+    "stats_internal": {
+      "ap": 30,
+      "ad": 30,
+      "attack_speed": 0.25
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "30 Attack Damage30 Ability Power25% Attack SpeedWrathAttacks deal 30 bonus magic damage On-Hit.Seething StrikeAttacks grant 8% Attack Speed for 3 seconds. (stacks 4 times). While fully stacked, every ",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3135",
+    "name": "Void Staff",
+    "stats": {
+      "FlatMagicDamageMod": 95
+    },
+    "stats_internal": {
+      "ap": 95
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 3000,
+    "tags": [
+      "MagicPenetration",
+      "SpellDamage"
+    ],
+    "effects": [
+      6
+    ],
+    "counters": [
+      5
+    ],
+    "priority": 3,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "95 Ability Power40% Magic Penetration",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "3137",
+    "name": "Cryptbloom",
+    "stats": {
+      "FlatMagicDamageMod": 75
+    },
+    "stats_internal": {
+      "ap": 75
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 3000,
+    "tags": [
+      "SpellDamage",
+      "MagicPenetration",
+      "AbilityHaste"
+    ],
+    "effects": [
+      6,
+      9
+    ],
+    "counters": [
+      5
+    ],
+    "priority": 3,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "75 Ability Power30% Magic Penetration20 Ability HasteLife from DeathWhen a champion that you damaged within 3 seconds dies, a nova spreads from their corpse that heals.",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "3139",
+    "name": "Mercurial Scimitar",
+    "stats": {
+      "FlatSpellBlockMod": 35,
+      "FlatPhysicalDamageMod": 50,
+      "PercentLifeStealMod": 0.1
+    },
+    "stats_internal": {
+      "mr": 35,
+      "ad": 50,
+      "lifesteal": 0.1
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3200,
+    "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "Active",
+      "NonbootsMovement",
+      "Tenacity"
+    ],
+    "effects": [
+      7
+    ],
+    "counters": [
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "50 Attack Damage35 Magic Resist10% Life StealACTIVEQuicksilverRemoves all crowd control debuffs (excluding Airborne) and grants Move Speed.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3142",
+    "name": "Youmuu's Ghostblade",
+    "stats": {
+      "FlatPhysicalDamageMod": 55,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "ad": 55,
+      "movespeed": 0.04
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 2800,
+    "tags": [
+      "Damage",
+      "Active",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ],
+    "effects": [
+      4
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Attack Damage18 Lethality4% Move SpeedHaunt Gain  Move Speed while out of combat.Wraith StepGain Move Speed and Ghosting for  seconds.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3143",
+    "name": "Randuin's Omen",
+    "stats": {
+      "FlatHPPoolMod": 350,
+      "FlatArmorMod": 75
+    },
+    "stats_internal": {
+      "hp": 350,
+      "armor": 75
+    },
+    "item_type": 2,
+    "subclass": 120,
+    "gold": 2700,
+    "tags": [
+      "Health",
+      "Armor",
+      "Active",
+      "Slow"
+    ],
+    "effects": [
+      2
+    ],
+    "counters": [
+      0
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "350 Health75 ArmorResilienceReceive 30% less damage from Critical Strikes.HumilitySlow nearby enemies by 70% for 2 seconds.",
+    "_debug_subclass": "tank_armor",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "663146",
+    "name": "Hextech Gunblade",
+    "stats": {
+      "FlatMagicDamageMod": 90,
+      "FlatPhysicalDamageMod": 45
+    },
+    "stats_internal": {
+      "ap": 90,
+      "ad": 45
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 2500,
+    "tags": [
+      "Damage",
+      "LifeSteal",
+      "SpellDamage",
+      "Active",
+      "SpellVamp"
+    ],
+    "effects": [
+      2,
+      7
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "90 Ability Power45 Attack Damage15% OmnivampACTIVE (0s)Lightning BoltShocks the target enemy champion, dealing  magic damage and slowing them by 40% for 2 seconds.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3152",
+    "name": "Hextech Rocketbelt",
+    "stats": {
+      "FlatHPPoolMod": 300,
+      "FlatMagicDamageMod": 70
+    },
+    "stats_internal": {
+      "hp": 300,
+      "ap": 70
+    },
+    "item_type": 1,
+    "subclass": 101,
+    "gold": 2650,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "70 Ability Power300 Health20 Ability HasteSupersonicDash in target direction, unleashing missiles that deal magic damage.",
+    "_debug_subclass": "sustained_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "3153",
+    "name": "Blade of The Ruined King",
+    "stats": {
+      "FlatPhysicalDamageMod": 40,
+      "PercentAttackSpeedMod": 0.25,
+      "PercentLifeStealMod": 0.1
+    },
+    "stats_internal": {
+      "ad": 40,
+      "attack_speed": 0.25,
+      "lifesteal": 0.1
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3200,
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "LifeSteal",
+      "Slow",
+      "OnHit"
+    ],
+    "effects": [
+      2,
+      7
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "40 Attack Damage25% Attack Speed10% Life StealMist's EdgeAttacks deal a percentage of enemy's current Health as bonus physical damage On-Hit.Clawing ShadowsAttacking a champion 3 times Slows them by 3",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3156",
+    "name": "Maw of Malmortius",
+    "stats": {
+      "FlatSpellBlockMod": 40,
+      "FlatPhysicalDamageMod": 60
+    },
+    "stats_internal": {
+      "mr": 40,
+      "ad": 60
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3100,
+    "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      7,
+      9
+    ],
+    "counters": [
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "60 Attack Damage15 Ability Haste40 Magic ResistLifelineTaking magic damage that would reduce your Health below 30% grants a magic damage Shield for 3 seconds and 10% Omnivamp until end of combat.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3157",
+    "name": "Zhonya's Hourglass",
+    "stats": {
+      "FlatMagicDamageMod": 105,
+      "FlatArmorMod": 50
+    },
+    "stats_internal": {
+      "ap": 105,
+      "armor": 50
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 3250,
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "Active"
+    ],
+    "effects": [],
+    "counters": [
+      0
+    ],
+    "priority": 3,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "105 Ability Power50 ArmorTime StopEnter Stasis for 2.5 seconds.",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "3161",
+    "name": "Spear of Shojin",
+    "stats": {
+      "FlatHPPoolMod": 450,
+      "FlatPhysicalDamageMod": 45
+    },
+    "stats_internal": {
+      "hp": 450,
+      "ad": 45
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3100,
+    "tags": [
+      "Health",
+      "Damage",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "45 Attack Damage450 HealthDragonforce Gain 25 Basic Ability Haste.Focused Will Dealing damage with Abilities increases your Champion's Ability and Passive damage by 3% for 6 seconds. (stacks 4 times).",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3165",
+    "name": "Morellonomicon",
+    "stats": {
+      "FlatHPPoolMod": 350,
+      "FlatMagicDamageMod": 75
+    },
+    "stats_internal": {
+      "hp": 350,
+      "ap": 75
+    },
+    "item_type": 1,
+    "subclass": 101,
+    "gold": 2850,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      0,
+      9
+    ],
+    "counters": [
+      2
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "75 Ability Power350 Health15 Ability HasteGrievous WoundsDealing magic damage to champions applies 40% Wounds for 3 seconds.",
+    "_debug_subclass": "sustained_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "3179",
+    "name": "Umbral Glaive",
+    "stats": {
+      "FlatPhysicalDamageMod": 60
+    },
+    "stats_internal": {
+      "ad": 60
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 2800,
+    "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "effects": [
+      4,
+      9
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "60 Attack Damage18 Lethality15 Ability HasteNightstalkerAfter being unseen by enemies briefly, your next attack against a champion deals an additional true damage.BlackoutWhen you are near enemy Steal",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3181",
+    "name": "Hullbreaker",
+    "stats": {
+      "FlatHPPoolMod": 500,
+      "FlatPhysicalDamageMod": 40,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "hp": 500,
+      "ad": 40,
+      "movespeed": 0.04
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "Damage",
+      "NonbootsMovement"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "40 Attack Damage500 Health4% Move SpeedSkipperEvery fifth Attack against champions and epic monsters deals bonus physical damage, increased against Structures.Boarding PartyNearby allied siege and sup",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3190",
+    "name": "Locket of the Iron Solari",
+    "stats": {
+      "FlatSpellBlockMod": 25,
+      "FlatHPPoolMod": 200,
+      "FlatArmorMod": 25
+    },
+    "stats_internal": {
+      "mr": 25,
+      "hp": 200,
+      "armor": 25
+    },
+    "item_type": 3,
+    "subclass": 102,
+    "gold": 2200,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Aura",
+      "Active",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      9
+    ],
+    "counters": [
+      0,
+      1
+    ],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": true,
+    "base_weight": 1.0,
+    "description_clean": "200 Health25 Armor25 Magic Resist10 Ability HasteDevotionGrant nearby allies a 290 - 360 Shield that decays over 2.5 seconds.",
+    "_debug_subclass": "support_util",
+    "_debug_type": "support"
+  },
+  {
+    "item_id": "3222",
+    "name": "Mikael's Blessing",
+    "stats": {
+      "FlatHPPoolMod": 250
+    },
+    "stats_internal": {
+      "hp": 250
+    },
+    "item_type": 3,
+    "subclass": 102,
+    "gold": 2300,
+    "tags": [
+      "Health",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction",
+      "Tenacity",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      8,
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": true,
+    "base_weight": 1.0,
+    "description_clean": "250 Health100% Base Mana Regen12% Heal and Shield Power15 Ability HastePurifyRemove all crowd control debuffs (excluding Airborne and Suppression) from an ally champion and restore 100 - 250 Health.",
+    "_debug_subclass": "support_util",
+    "_debug_type": "support"
+  },
+  {
+    "item_id": "3504",
+    "name": "Ardent Censer",
+    "stats": {
+      "FlatMagicDamageMod": 45,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "ap": 45,
+      "movespeed": 0.04
+    },
+    "item_type": 3,
+    "subclass": 102,
+    "gold": 2200,
+    "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "ManaRegen",
+      "NonbootsMovement"
+    ],
+    "effects": [
+      1,
+      8
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": true,
+    "base_weight": 1.0,
+    "description_clean": "45 Ability Power10% Heal and Shield Power125% Base Mana Regen4% Move SpeedSanctifyHealing or Shielding an ally enhances you both for 6 seconds, granting 25% Attack Speed and 20 magic damage On-Hit.",
+    "_debug_subclass": "support_util",
+    "_debug_type": "support"
+  },
+  {
+    "item_id": "4005",
+    "name": "Imperial Mandate",
+    "stats": {
+      "FlatMagicDamageMod": 60
+    },
+    "stats_internal": {
+      "ap": 60
+    },
+    "item_type": 3,
+    "subclass": 102,
+    "gold": 2250,
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      2,
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": true,
+    "base_weight": 1.0,
+    "description_clean": "60 Ability Power20 Ability Haste125% Base Mana RegenCoordinated Fire (0s) per targetSlowing or Immobilizing an enemy champion marks them for 5 seconds. Ally champion damage detonates the mark, dealing",
+    "_debug_subclass": "support_util",
+    "_debug_type": "support"
+  },
+  {
+    "item_id": "6616",
+    "name": "Staff of Flowing Water",
+    "stats": {
+      "FlatMagicDamageMod": 35
+    },
+    "stats_internal": {
+      "ap": 35
+    },
+    "item_type": 3,
+    "subclass": 102,
+    "gold": 2250,
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      8,
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": true,
+    "base_weight": 1.0,
+    "description_clean": "35 Ability Power10% Heal and Shield Power125% Base Mana Regen15 Ability HasteRapidsHealing or Shielding an ally grants you both 45 Ability Power for 6 seconds.",
+    "_debug_subclass": "support_util",
+    "_debug_type": "support"
+  },
+  {
+    "item_id": "6617",
+    "name": "Moonstone Renewer",
+    "stats": {
+      "FlatHPPoolMod": 200,
+      "FlatMagicDamageMod": 25
+    },
+    "stats_internal": {
+      "hp": 200,
+      "ap": 25
+    },
+    "item_type": 3,
+    "subclass": 102,
+    "gold": 2200,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": true,
+    "base_weight": 1.0,
+    "description_clean": "25 Ability Power200 Health20 Ability Haste125% Base Mana RegenStarlit GraceHealing or shielding an ally chains the effect to another ally (excluding yourself), healing 30% or shielding 35% of the orig",
+    "_debug_subclass": "support_util",
+    "_debug_type": "support"
+  },
+  {
+    "item_id": "6620",
+    "name": "Echoes of Helia",
+    "stats": {
+      "FlatHPPoolMod": 200,
+      "FlatMagicDamageMod": 35
+    },
+    "stats_internal": {
+      "hp": 200,
+      "ap": 35
+    },
+    "item_type": 3,
+    "subclass": 102,
+    "gold": 2200,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": true,
+    "base_weight": 1.0,
+    "description_clean": "35 Ability Power200 Health20 Ability Haste125% Base Mana RegenSoul SiphonGain 35% of pre-mitigation damage dealt to champions as Soul Charges. Healing or Shielding an ally consumes all Soul Charges to",
+    "_debug_subclass": "support_util",
+    "_debug_type": "support"
+  },
+  {
+    "item_id": "6621",
+    "name": "Dawncore",
+    "stats": {
+      "FlatMagicDamageMod": 45
+    },
+    "stats_internal": {
+      "ap": 45
+    },
+    "item_type": 3,
+    "subclass": 102,
+    "gold": 2500,
+    "tags": [
+      "SpellDamage",
+      "ManaRegen"
+    ],
+    "effects": [
+      1,
+      8
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": true,
+    "base_weight": 1.0,
+    "description_clean": "45 Ability Power16% Heal and Shield Power100% Base Mana RegenFirst LightGain 2% Heal and Shield Power and 10 Ability Power per 100% Base Mana Regen.",
+    "_debug_subclass": "support_util",
+    "_debug_type": "support"
+  },
+  {
+    "item_id": "326657",
+    "name": "Rod of Ages",
+    "stats": {
+      "FlatMPPoolMod": 500,
+      "FlatHPPoolMod": 350,
+      "FlatMagicDamageMod": 45
+    },
+    "stats_internal": {
+      "mana": 500,
+      "hp": 350,
+      "ap": 45
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 2600,
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": true,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "45 Ability Power350 Health500 ManaTimelessThis item gains 10 Health, 30 Mana and 3 Ability Power every 60 seconds up to 10 times. Upon reaching max stacks, gain a level.EternityTaking damage from cham",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "8020",
+    "name": "Abyssal Mask",
+    "stats": {
+      "FlatSpellBlockMod": 45,
+      "FlatHPPoolMod": 350
+    },
+    "stats_internal": {
+      "mr": 45,
+      "hp": 350
+    },
+    "item_type": 2,
+    "subclass": 121,
+    "gold": 2650,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "CooldownReduction",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "350 Health45 Magic Resist15 Ability HasteUnmakeNearby enemy champions take 12% more magic damage.",
+    "_debug_subclass": "tank_mr",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "3302",
+    "name": "Terminus",
+    "stats": {
+      "FlatPhysicalDamageMod": 30,
+      "PercentAttackSpeedMod": 0.35
+    },
+    "stats_internal": {
+      "ad": 30,
+      "attack_speed": 0.35
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "MagicPenetration",
+      "ArmorPenetration"
+    ],
+    "effects": [
+      5,
+      6
+    ],
+    "counters": [
+      4,
+      5
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "30 Attack Damage35% Attack SpeedShadowAttacks deal 30 bonus magic damage On-Hit.JuxtapositionAlternate between Light and Dark Attacks against champions: Light Attacks grant Armor and Magic Resist for ",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3508",
+    "name": "Essence Reaver",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "FlatPhysicalDamageMod": 50
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "ad": 50
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 3050,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "50 Attack Damage20 Ability Haste25% Critical Strike ChanceSpellbladeAfter using an Ability, your next Attack deals bonus physical damage and grants Mana On-Hit.",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3742",
+    "name": "Dead Man's Plate",
+    "stats": {
+      "FlatHPPoolMod": 350,
+      "FlatArmorMod": 55,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "hp": 350,
+      "armor": 55,
+      "movespeed": 0.04
+    },
+    "item_type": 2,
+    "subclass": 120,
+    "gold": 2900,
+    "tags": [
+      "Health",
+      "Armor",
+      "Slow",
+      "NonbootsMovement"
+    ],
+    "effects": [
+      2
+    ],
+    "counters": [
+      0
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "350 Health55 Armor4% Move SpeedShipwreckerWhile moving, build up to 20 bonus Move Speed. Your next Attack discharges built up Move Speed to deal bonus physical damage.UnsinkableReduce the effectivenes",
+    "_debug_subclass": "tank_armor",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "3748",
+    "name": "Titanic Hydra",
+    "stats": {
+      "FlatHPPoolMod": 600,
+      "FlatPhysicalDamageMod": 40
+    },
+    "stats_internal": {
+      "hp": 600,
+      "ad": 40
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3300,
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Damage",
+      "OnHit"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "40 Attack Damage600 HealthCleaveAttacks deal physical damage on-hit and to enemies behind the target.Titanic CrescentEmpower your next Cleave to deal bonus physical damage On-Hit and deal bonus physic",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "3814",
+    "name": "Edge of Night",
+    "stats": {
+      "FlatHPPoolMod": 250,
+      "FlatPhysicalDamageMod": 50
+    },
+    "stats_internal": {
+      "hp": 250,
+      "ad": 50
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "Damage",
+      "ArmorPenetration"
+    ],
+    "effects": [
+      1,
+      4
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "50 Attack Damage15 Lethality250 HealthAnnulGrants a Spell Shield that blocks the next enemy Ability.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "4401",
+    "name": "Force of Nature",
+    "stats": {
+      "FlatSpellBlockMod": 55,
+      "FlatHPPoolMod": 400,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "mr": 55,
+      "hp": 400,
+      "movespeed": 0.04
+    },
+    "item_type": 2,
+    "subclass": 121,
+    "gold": 2800,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "NonbootsMovement"
+    ],
+    "effects": [],
+    "counters": [
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "400 Health55 Magic Resist4% Move SpeedSteadfastGain 70 Magic Resist and 6% bonus Move Speed after taking magic damage from Champions 8 times.",
+    "_debug_subclass": "tank_mr",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "4628",
+    "name": "Horizon Focus",
+    "stats": {
+      "FlatMagicDamageMod": 75
+    },
+    "stats_internal": {
+      "ap": 75
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 2700,
+    "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "75 Ability Power25 Ability HasteHypershotDealing Ability damage to champions at 600 range or greater Reveals them for 6 seconds. FocusWhen Hypershot is triggered, Reveal all other enemy champions with",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "4629",
+    "name": "Cosmic Drive",
+    "stats": {
+      "FlatHPPoolMod": 350,
+      "FlatMagicDamageMod": 70,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "hp": 350,
+      "ap": 70,
+      "movespeed": 0.04
+    },
+    "item_type": 1,
+    "subclass": 101,
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "70 Ability Power350 Health25 Ability Haste4% Move SpeedSpelldanceDealing magic or true damage to champions grants Move Speed for 4 seconds.",
+    "_debug_subclass": "sustained_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "4633",
+    "name": "Riftmaker",
+    "stats": {
+      "FlatHPPoolMod": 350,
+      "FlatMagicDamageMod": 70
+    },
+    "stats_internal": {
+      "hp": 350,
+      "ap": 70
+    },
+    "item_type": 1,
+    "subclass": 101,
+    "gold": 3100,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "SpellVamp"
+    ],
+    "effects": [
+      7,
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "70 Ability Power350 Health15 Ability HasteVoid CorruptionFor each second in combat with enemy champions, deal 2% bonus damage, up to 8%. At maximum strength, gain Omnivamp.Void InfusionGain 2% of your",
+    "_debug_subclass": "sustained_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "4645",
+    "name": "Shadowflame",
+    "stats": {
+      "FlatMagicDamageMod": 110
+    },
+    "stats_internal": {
+      "ap": 110
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 3200,
+    "tags": [
+      "SpellDamage",
+      "MagicPenetration"
+    ],
+    "effects": [
+      6
+    ],
+    "counters": [
+      5
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "110 Ability Power15 Magic PenetrationCinderbloomMagic and true damage Critically Strikes enemies below 40% Health, dealing 20% increased damage.",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "4646",
+    "name": "Stormsurge",
+    "stats": {
+      "FlatMagicDamageMod": 90,
+      "PercentMovementSpeedMod": 0.06
+    },
+    "stats_internal": {
+      "ap": 90,
+      "movespeed": 0.06
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 2800,
+    "tags": [
+      "SpellDamage",
+      "GoldPer",
+      "NonbootsMovement",
+      "MagicPenetration"
+    ],
+    "effects": [
+      6
+    ],
+    "counters": [
+      5
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "90 Ability Power15 Magic Penetration6% Move SpeedStormraiderDealing 25% of a champion's maximum Health within 2.5s applies Squall to them.SquallAfter 2 seconds, deal magic damage. If the target dies b",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "6333",
+    "name": "Death's Dance",
+    "stats": {
+      "FlatArmorMod": 50,
+      "FlatPhysicalDamageMod": 60
+    },
+    "stats_internal": {
+      "armor": 50,
+      "ad": 60
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3300,
+    "tags": [
+      "Armor",
+      "Damage",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [
+      0
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "60 Attack Damage50 Armor15 Ability HasteIgnore PainA percentage of damage taken is dealt to you over 3 seconds instead.DefyWhen a champion that you damaged within 3 seconds dies, cleanse Ignore Pain's",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6609",
+    "name": "Chempunk Chainsword",
+    "stats": {
+      "FlatHPPoolMod": 450,
+      "FlatPhysicalDamageMod": 45
+    },
+    "stats_internal": {
+      "hp": 450,
+      "ad": 45
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "45 Attack Damage450 Health15 Ability HasteHackshornDealing physical damage applies 40% Wounds to enemy champions for 3 seconds.",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6610",
+    "name": "Sundered Sky",
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatPhysicalDamageMod": 45
+    },
+    "stats_internal": {
+      "hp": 400,
+      "ad": 45
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3100,
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "45 Attack Damage400 Health10 Ability HasteLightshield StrikeYour first Attack against a champion Critically Strikes and restores Health.",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "663039",
+    "name": "Atma's Reckoning",
+    "stats": {
+      "FlatHPPoolMod": 500,
+      "FlatCritChanceMod": 0.2
+    },
+    "stats_internal": {
+      "hp": 500,
+      "crit": 0.2
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "CriticalStrike",
+      "Lane"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "500 Health20% Critical Strike ChanceBig HandsGain 0-30% Critical Strike Chance, scaling with your bonus Health.",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "663056",
+    "name": "Demon King's Crown",
+    "stats": {},
+    "stats_internal": {},
+    "item_type": 4,
+    "subclass": 131,
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "Armor",
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "SupremacyIncreases your Health, Armor, Magic Resist, Attack Damage, Ability Power, Attack Speed, and Ability Haste by 20%, increased by 0% perTakedown and -3% per Death after acquiring this item.",
+    "_debug_subclass": "utility",
+    "_debug_type": "utility"
+  },
+  {
+    "item_id": "663058",
+    "name": "Shield of Molten Stone",
+    "stats": {
+      "FlatHPPoolMod": 250,
+      "FlatArmorMod": 80
+    },
+    "stats_internal": {
+      "hp": 250,
+      "armor": 80
+    },
+    "item_type": 2,
+    "subclass": 120,
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "Armor"
+    ],
+    "effects": [],
+    "counters": [
+      0
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "250 Health80 ArmorImmovable as the EarthIncrease your armor by 20%, and gain Block Chance based on your Armor.",
+    "_debug_subclass": "tank_armor",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "663059",
+    "name": "Cloak of Starry Night",
+    "stats": {
+      "FlatSpellBlockMod": 60,
+      "FlatHPPoolMod": 250
+    },
+    "stats_internal": {
+      "mr": 60,
+      "hp": 250
+    },
+    "item_type": 2,
+    "subclass": 121,
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "SpellBlock"
+    ],
+    "effects": [],
+    "counters": [
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "250 Health60 Magic ResistLimitless as the StarsIncrease your Magic Resist by 10%. Reduce all damage you take from non-Basic Attack sources by a percentage, scaling with your Magic Resist up to a cap o",
+    "_debug_subclass": "tank_mr",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "663060",
+    "name": "Sword of the Divine",
+    "stats": {
+      "FlatCritChanceMod": 0.5
+    },
+    "stats_internal": {
+      "crit": 0.5
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 2500,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "SpellDamage"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "90 Adaptive Force50% Critical Strike ChanceExcoriateEach Critical strike deals random bonus Critical Strike Damage, scaling up to 50% of your Critical Strike Chance.",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6631",
+    "name": "Stridebreaker",
+    "stats": {
+      "FlatHPPoolMod": 450,
+      "FlatPhysicalDamageMod": 40,
+      "PercentAttackSpeedMod": 0.25
+    },
+    "stats_internal": {
+      "hp": 450,
+      "ad": 40,
+      "attack_speed": 0.25
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3300,
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "Slow"
+    ],
+    "effects": [
+      2
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "40 Attack Damage25% Attack Speed450 HealthCleaveAttacks deal physical damage to nearby enemies.Breaking ShockwaveDeal physical damage and Slow nearby enemies by 35%.Gain 35% decaying Move Speed per ch",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "663172",
+    "name": "Zephyr",
+    "stats": {
+      "PercentAttackSpeedMod": 0.4,
+      "PercentMovementSpeedMod": 0.08
+    },
+    "stats_internal": {
+      "attack_speed": 0.4,
+      "movespeed": 0.08
+    },
+    "item_type": 0,
+    "subclass": 112,
+    "gold": 2500,
+    "tags": [
+      "AttackSpeed",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement",
+      "Tenacity"
+    ],
+    "effects": [
+      2,
+      3,
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "40% Attack Speed8% Move Speed25 Ability Haste20% TenacityLike the WindGain 5% Move Speed On-Hit for 6 seconds, stacking up to 25% Move Speed.Tenacity reduces the duration of Stun, Slow, Taunt, Fear, S",
+    "_debug_subclass": "on_hit",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "663193",
+    "name": "Gargoyle Stoneplate",
+    "stats": {
+      "FlatSpellBlockMod": 55,
+      "FlatArmorMod": 55,
+      "PercentMovementSpeedMod": 0.08
+    },
+    "stats_internal": {
+      "mr": 55,
+      "armor": 55,
+      "movespeed": 0.08
+    },
+    "item_type": 2,
+    "subclass": 122,
+    "gold": 2500,
+    "tags": [
+      "SpellBlock",
+      "Armor",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      9
+    ],
+    "counters": [
+      0,
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Armor55 Magic Resist10 Ability Haste8% Move SpeedActive - Unbreakable: Gain a Shield that decays and grow in size.",
+    "_debug_subclass": "tank_general",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "664011",
+    "name": "Sword of Blossoming Dawn",
+    "stats": {
+      "FlatHPPoolMod": 150,
+      "FlatMagicDamageMod": 35
+    },
+    "stats_internal": {
+      "hp": 150,
+      "ap": 35
+    },
+    "item_type": 3,
+    "subclass": 102,
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      8,
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "35 Ability Power150 Health10% Heal and Shield Power10 Ability HasteEffervescenceGain +1% Attack Speed for every 1% Heal and Shield Power you have. PeppermintOn-Hit, heal the lowest health ally champio",
+    "_debug_subclass": "support_util",
+    "_debug_type": "support"
+  },
+  {
+    "item_id": "664644",
+    "name": "Crown of the Shattered Queen",
+    "stats": {
+      "FlatMPPoolMod": 600,
+      "FlatHPPoolMod": 250,
+      "FlatMagicDamageMod": 65
+    },
+    "stats_internal": {
+      "mana": 600,
+      "hp": 250,
+      "ap": 65
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 2500,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": true,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "65 Ability Power250 Health600 Mana15 Ability HasteSafeguardYou are Safeguarded, reducing incoming champion damage by 40%. Safeguard persists for 3 seconds after taking champion damage. (0s). Item Cool",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "6653",
+    "name": "Liandry's Torment",
+    "stats": {
+      "FlatHPPoolMod": 300,
+      "FlatMagicDamageMod": 60
+    },
+    "stats_internal": {
+      "hp": 300,
+      "ap": 60
+    },
+    "item_type": 1,
+    "subclass": 101,
+    "gold": 3000,
+    "tags": [
+      "Health",
+      "SpellDamage"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "60 Ability Power300 HealthTormentDamaging Abilities burn enemies for 2% max Health magic damage per second for 3 seconds.SufferingFor each second in combat with enemy champions, deal 2% bonus damage, ",
+    "_debug_subclass": "sustained_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "6655",
+    "name": "Luden's Echo",
+    "stats": {
+      "FlatMPPoolMod": 600,
+      "FlatMagicDamageMod": 100
+    },
+    "stats_internal": {
+      "mana": 600,
+      "ap": 100
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 2750,
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": true,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "100 Ability Power600 Mana10 Ability HasteEchoDamaging Abilities fire 6 Echoes that deal bonus magic damage to the target and nearby enemies. Remaining Echoes fire on the primary target, dealing 20% da",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "6662",
+    "name": "Iceborn Gauntlet",
+    "stats": {
+      "FlatHPPoolMod": 300,
+      "FlatArmorMod": 50
+    },
+    "stats_internal": {
+      "hp": 300,
+      "armor": 50
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 2900,
+    "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "Slow",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "effects": [
+      2,
+      9
+    ],
+    "counters": [
+      0
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "300 Health50 Armor15 Ability HasteSpellbladeAfter using an Ability, your next Attack deals bonus physical damage On-Hit and creates a frost field for 2s that Slows.",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6664",
+    "name": "Hollow Radiance",
+    "stats": {
+      "FlatSpellBlockMod": 40,
+      "FlatHPPoolMod": 400
+    },
+    "stats_internal": {
+      "mr": 40,
+      "hp": 400
+    },
+    "item_type": 2,
+    "subclass": 121,
+    "gold": 2800,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "Aura",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "400 Health40 Magic Resist10 Ability Haste100% Base Health RegenImmolateAfter taking or dealing damage, deal magic damage per second to nearby enemies for 3 seconds. DesolateKilling an enemy deals magi",
+    "_debug_subclass": "tank_mr",
+    "_debug_type": "tank"
+  },
+  {
+    "item_id": "6665",
+    "name": "Jak'Sho, The Protean",
+    "stats": {
+      "FlatSpellBlockMod": 45,
+      "FlatHPPoolMod": 350,
+      "FlatArmorMod": 45
+    },
+    "stats_internal": {
+      "mr": 45,
+      "hp": 350,
+      "armor": 45
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 3200,
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "MagicResist"
+    ],
+    "effects": [],
+    "counters": [
+      0,
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "350 Health45 Armor45 Magic ResistVoidborn ResilienceAfter 5 seconds of champion combat, increase your bonus Armor and Magic Resist by 30% until end of combat.",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "667101",
+    "name": "Gambler's Blade",
+    "stats": {
+      "PercentMovementSpeedMod": 0.15
+    },
+    "stats_internal": {
+      "movespeed": 0.15
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 2500,
+    "tags": [
+      "Damage",
+      "NonbootsMovement",
+      "MagicPenetration",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "effects": [
+      4,
+      6,
+      9
+    ],
+    "counters": [
+      4,
+      5
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Adaptive Force10 Ability Haste15 Lethality15 Magic Penetration15% Move SpeedPlaying for TimeChampion takedowns while using Gambler's Blade delays Doom-boss Veigar's arrival by an additional 10 seco",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "667109",
+    "name": "Cruelty",
+    "stats": {
+      "FlatSpellBlockMod": 25,
+      "FlatMagicDamageMod": 60,
+      "FlatArmorMod": 25
+    },
+    "stats_internal": {
+      "mr": 25,
+      "ap": 60,
+      "armor": 25
+    },
+    "item_type": 1,
+    "subclass": 100,
+    "gold": 2500,
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "MagicResist"
+    ],
+    "effects": [],
+    "counters": [
+      0,
+      1
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "60 Ability Power25 Armor25 Magic ResistWatch Them FallOn Immobilize or Grounding an enemy champion, summon a comet above them. The comet lands after 1 second, dealing additional  magic damage in the a",
+    "_debug_subclass": "burst_ap",
+    "_debug_type": "ap"
+  },
+  {
+    "item_id": "667112",
+    "name": "Flesheater",
+    "stats": {
+      "FlatHPPoolMod": 500
+    },
+    "stats_internal": {
+      "hp": 500
+    },
+    "item_type": 4,
+    "subclass": 131,
+    "gold": 2500,
+    "tags": [
+      "Damage",
+      "SpellDamage",
+      "MagicPenetration",
+      "ArmorPenetration"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Adaptive Force500 HealthHack the MeatDealing damage shreds 3 Armor and Magic Resist for 5 seconds, stacking up to 10 times. Applying stacks has a 1 second cooldown per Ability.CannibalizeOn Champio",
+    "_debug_subclass": "utility",
+    "_debug_type": "utility"
+  },
+  {
+    "item_id": "6672",
+    "name": "Kraken Slayer",
+    "stats": {
+      "FlatPhysicalDamageMod": 45,
+      "PercentAttackSpeedMod": 0.4,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "ad": 45,
+      "attack_speed": 0.4,
+      "movespeed": 0.04
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "45 Attack Damage40% Attack Speed4% Move SpeedBring It DownEvery third Attack deals bonus physical damage On-Hit, increased based on their missing Health.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6673",
+    "name": "Immortal Shieldbow",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "FlatPhysicalDamageMod": 55
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "ad": 55
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "CriticalStrike"
+    ],
+    "effects": [
+      1
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Attack Damage25% Critical Strike ChanceLifelineTaking damage that would reduce your Health below 30% grants a Shield for 3 seconds.",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6675",
+    "name": "Navori Flickerblade",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "PercentAttackSpeedMod": 0.4,
+      "PercentMovementSpeedMod": 0.04
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "attack_speed": 0.4,
+      "movespeed": 0.04
+    },
+    "item_type": 0,
+    "subclass": 111,
+    "gold": 2650,
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ],
+    "effects": [],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "40% Attack Speed25% Critical Strike Chance4% Move SpeedTranscendenceAttacks reduce Basic Ability cooldowns by 15% of their remaining cooldown.",
+    "_debug_subclass": "crit_adc",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6676",
+    "name": "The Collector",
+    "stats": {
+      "FlatCritChanceMod": 0.25,
+      "FlatPhysicalDamageMod": 50
+    },
+    "stats_internal": {
+      "crit": 0.25,
+      "ad": 50
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ],
+    "effects": [
+      4
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "50 Attack Damage10 Lethality25% Critical Strike ChanceDeathYour damage executes champions that are below 5% Health.TaxesChampion kills grant 25 bonus gold.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6692",
+    "name": "Eclipse",
+    "stats": {
+      "FlatPhysicalDamageMod": 60
+    },
+    "stats_internal": {
+      "ad": 60
+    },
+    "item_type": 0,
+    "subclass": 113,
+    "gold": 2900,
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "effects": [
+      1,
+      9
+    ],
+    "counters": [],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "60 Attack Damage15 Ability HasteEver Rising MoonHitting a champion with 2 separate Attacks or Abilities within 2 seconds grants you a Shield for 2 seconds.",
+    "_debug_subclass": "bruiser_ad",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6694",
+    "name": "Serylda's Grudge",
+    "stats": {
+      "FlatPhysicalDamageMod": 45
+    },
+    "stats_internal": {
+      "ad": 45
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "effects": [
+      2,
+      5,
+      9
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 3,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "45 Attack Damage35% Armor Penetration15 Ability HasteBitter ColdDamaging Abilities Slow enemies below 50% Health by 30% for 1 second.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6695",
+    "name": "Serpent's Fang",
+    "stats": {
+      "FlatPhysicalDamageMod": 55
+    },
+    "stats_internal": {
+      "ad": 55
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 2500,
+    "tags": [
+      "Damage",
+      "ArmorPenetration"
+    ],
+    "effects": [
+      1,
+      4
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Attack Damage15 LethalityShield ReaverDamaging an enemy champion reduces Shields they gain by % for 3 seconds. If they were not already affected by Shield Reaver, reduce Shields on them by %.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6696",
+    "name": "Axiom Arc",
+    "stats": {
+      "FlatPhysicalDamageMod": 55
+    },
+    "stats_internal": {
+      "ad": 55
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 2750,
+    "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "effects": [
+      4,
+      9
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Attack Damage18 Lethality20 Ability HasteFluxWhen a champion that you damaged within 3 seconds dies, refund some of your Ultimate Ability's total cooldown.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6697",
+    "name": "Hubris",
+    "stats": {
+      "FlatPhysicalDamageMod": 60
+    },
+    "stats_internal": {
+      "ad": 60
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 2800,
+    "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "effects": [
+      4,
+      9
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "60 Attack Damage18 Lethality10 Ability HasteEminenceWhen a champion that you damaged within 3 seconds dies, gain 15 Attack Damage plus 2 per champion killed for 90 seconds.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6698",
+    "name": "Profane Hydra",
+    "stats": {
+      "FlatPhysicalDamageMod": 55
+    },
+    "stats_internal": {
+      "ad": 55
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 2850,
+    "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "effects": [
+      4,
+      9
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Attack Damage18 Lethality10 Ability HasteCleaveAttacks deal physical damage to nearby enemies.Heretical CleaveDeal physical damage around you.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6699",
+    "name": "Voltaic Cyclosword",
+    "stats": {
+      "FlatPhysicalDamageMod": 55
+    },
+    "stats_internal": {
+      "ad": 55
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 3000,
+    "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "effects": [
+      2,
+      4,
+      9
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Attack Damage18 Lethality10 Ability HasteGalvanizeDashes and Stealth stack Energized 75% faster.FirmamentYour Energized Attack deals bonus physical damage and Slows for 0.75 seconds.",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "6701",
+    "name": "Opportunity",
+    "stats": {
+      "FlatPhysicalDamageMod": 55
+    },
+    "stats_internal": {
+      "ad": 55
+    },
+    "item_type": 0,
+    "subclass": 110,
+    "gold": 2700,
+    "tags": [
+      "Damage",
+      "Active",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ],
+    "effects": [
+      4
+    ],
+    "counters": [
+      4
+    ],
+    "priority": 1,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "55 Attack Damage18 LethalityPreparationAfter being out of combat with Champions for 8 seconds gain Lethality. This Lethality lasts for 3 seconds after dealing damage to champions.ExtractionWhen a cham",
+    "_debug_subclass": "lethality",
+    "_debug_type": "ad"
+  },
+  {
+    "item_id": "8010",
+    "name": "Bloodletter's Curse",
+    "stats": {
+      "FlatHPPoolMod": 400,
+      "FlatMagicDamageMod": 65
+    },
+    "stats_internal": {
+      "hp": 400,
+      "ap": 65
+    },
+    "item_type": 1,
+    "subclass": 101,
+    "gold": 2900,
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+    ],
+    "effects": [
+      9
+    ],
+    "counters": [],
+    "priority": 2,
+    "is_mana_item": false,
+    "is_tear": false,
+    "is_support_item": false,
+    "base_weight": 1.0,
+    "description_clean": "65 Ability Power400 Health15 Ability HasteVile DecayDealing magic damage with abilities or passives to champions reduces their Magic Resist by 7.5% for 6 seconds, up to 30%.",
+    "_debug_subclass": "sustained_ap",
+    "_debug_type": "ap"
+  }
+]

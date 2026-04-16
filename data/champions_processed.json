@@ -1,0 +1,7827 @@
+[
+  {
+    "name": "Aatrox",
+    "champion_id": "Aatrox",
+    "roles": [
+      "Fighter"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 650,
+      "mp": 0,
+      "armor": 38,
+      "spellblock": 32,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 10232.5
+    },
+    "info": {
+      "attack": 8,
+      "defense": 4,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "resource": "BLOOD_WELL",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Ahri",
+    "champion_id": "Ahri",
+    "roles": [
+      "Mage",
+      "Assassin"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 590,
+      "mp": 418,
+      "armor": 21,
+      "spellblock": 30,
+      "attackdamage": 53,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 2380.0
+    },
+    "info": {
+      "attack": 3,
+      "defense": 4,
+      "magic": 8,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Akali",
+    "champion_id": "Akali",
+    "roles": [
+      "Assassin"
+    ],
+    "damage_profile": 2,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5,
+      "ad": 0.8
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 200,
+      "armor": 23,
+      "spellblock": 37,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 1475.0,
+      "ap": 1850.0
+    },
+    "info": {
+      "attack": 5,
+      "defense": 3,
+      "magic": 8,
+      "difficulty": 7
+    },
+    "resource": "ENERGY",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Akshan",
+    "champion_id": "Akshan",
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 350,
+      "armor": 26,
+      "spellblock": 30,
+      "attackdamage": 52,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 500
+    },
+    "spell_ratios": {
+      "ad": 2720.0
+    },
+    "info": {
+      "attack": 0,
+      "defense": 0,
+      "magic": 0,
+      "difficulty": 0
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Alistar",
+    "champion_id": "Alistar",
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 50,
+    "stat_weights": {
+      "hp": 1.0,
+      "armor": 0.9,
+      "mr": 0.8,
+      "ability_haste": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 685,
+      "mp": 350,
+      "armor": 40,
+      "spellblock": 32,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 1285.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 9,
+      "magic": 5,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_vanguard"
+  },
+  {
+    "name": "Ambessa",
+    "champion_id": "Ambessa",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 200,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 63,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 2980.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 2,
+      "magic": 0,
+      "difficulty": 10
+    },
+    "resource": "ENERGY",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Amumu",
+    "champion_id": "Amumu",
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 50,
+    "stat_weights": {
+      "hp": 1.0,
+      "armor": 0.9,
+      "mr": 0.8,
+      "ability_haste": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 685,
+      "mp": 285,
+      "armor": 33,
+      "spellblock": 32,
+      "attackdamage": 57,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 920.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 3
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_vanguard"
+  },
+  {
+    "name": "Anivia",
+    "champion_id": "Anivia",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 11,
+    "stat_weights": {
+      "ap": 1.0,
+      "mana": 0.7,
+      "ability_haste": 0.8,
+      "hp": 0.4
+    },
+    "mana_need": 0.9,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 550,
+      "mp": 495,
+      "armor": 21,
+      "spellblock": 30,
+      "attackdamage": 51,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 600
+    },
+    "spell_ratios": {
+      "ap": 1600.0
+    },
+    "info": {
+      "attack": 1,
+      "defense": 4,
+      "magic": 10,
+      "difficulty": 10
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "control_mage"
+  },
+  {
+    "name": "Annie",
+    "champion_id": "Annie",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 560,
+      "mp": 418,
+      "armor": 23,
+      "spellblock": 30,
+      "attackdamage": 50,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 625
+    },
+    "spell_ratios": {
+      "ap": 1425.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 3,
+      "magic": 10,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Aphelios",
+    "champion_id": "Aphelios",
+    "roles": [
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 0.9,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 348,
+      "armor": 26,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 550
+    },
+    "spell_ratios": {},
+    "info": {
+      "attack": 6,
+      "defense": 2,
+      "magic": 1,
+      "difficulty": 10
+    },
+    "resource": "MANA",
+    "damage_intensity": "low",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Ashe",
+    "champion_id": "Ashe",
+    "roles": [
+      "Marksman",
+      "Support"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.26
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 280,
+      "armor": 26,
+      "spellblock": 30,
+      "attackdamage": 59,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 600
+    },
+    "spell_ratios": {
+      "ad": 1390.0,
+      "ap": 360.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 3,
+      "magic": 2,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Aurelion Sol",
+    "champion_id": "AurelionSol",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 11,
+    "stat_weights": {
+      "ap": 1.0,
+      "mana": 0.7,
+      "ability_haste": 0.8,
+      "hp": 0.6
+    },
+    "mana_need": 0.7,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 530,
+      "armor": 22,
+      "spellblock": 30,
+      "attackdamage": 58,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 2119.06,
+      "hp": 475.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 3,
+      "magic": 8,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "control_mage"
+  },
+  {
+    "name": "Aurora",
+    "champion_id": "Aurora",
+    "roles": [
+      "Mage",
+      "Assassin"
+    ],
+    "damage_profile": 1,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 607,
+      "mp": 475,
+      "armor": 23,
+      "spellblock": 32,
+      "attackdamage": 53,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1360.0
+    },
+    "info": {
+      "attack": 3,
+      "defense": 4,
+      "magic": 8,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Azir",
+    "champion_id": "Azir",
+    "roles": [
+      "Mage",
+      "Marksman"
+    ],
+    "damage_profile": 1,
+    "archetype": 11,
+    "stat_weights": {
+      "ap": 1.0,
+      "mana": 0.7,
+      "ability_haste": 0.8,
+      "hp": 0.4
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 575,
+      "mp": 320,
+      "armor": 25,
+      "spellblock": 30,
+      "attackdamage": 56,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 1225.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 3,
+      "magic": 8,
+      "difficulty": 9
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "control_mage"
+  },
+  {
+    "name": "Bard",
+    "champion_id": "Bard",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 61,
+    "stat_weights": {
+      "ability_haste": 0.8,
+      "ap": 1.0,
+      "hp": 0.5,
+      "mana": 0.6
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      3
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 350,
+      "armor": 34,
+      "spellblock": 30,
+      "attackdamage": 52,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 500
+    },
+    "spell_ratios": {
+      "ap": 875.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 4,
+      "magic": 5,
+      "difficulty": 9
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "catcher"
+  },
+  {
+    "name": "Bel'Veth",
+    "champion_id": "Belveth",
+    "roles": [
+      "Fighter"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.5
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 60,
+      "armor": 32,
+      "spellblock": 32,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ad": 2936.0,
+      "ap": 1465.0,
+      "hp": 75.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 2,
+      "magic": 7,
+      "difficulty": 10
+    },
+    "resource": "NONE",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Blitzcrank",
+    "champion_id": "Blitzcrank",
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "damage_profile": 2,
+    "archetype": 61,
+    "stat_weights": {
+      "ability_haste": 0.8,
+      "ap": 1.0,
+      "hp": 0.5,
+      "mana": 0.6
+    },
+    "mana_need": 0.5,
+    "weaknesses": [],
+    "base_stats": {
+      "hp": 600,
+      "mp": 267,
+      "armor": 37,
+      "spellblock": 32,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 1050.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 8,
+      "magic": 5,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "catcher"
+  },
+  {
+    "name": "Brand",
+    "champion_id": "Brand",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 570,
+      "mp": 469,
+      "armor": 27,
+      "spellblock": 30,
+      "attackdamage": 57,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1600.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 9,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Braum",
+    "champion_id": "Braum",
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 51,
+    "stat_weights": {
+      "hp": 0.9,
+      "armor": 1.0,
+      "mr": 0.9,
+      "ability_haste": 0.5,
+      "ap": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 311,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "hp": 12.5,
+      "ap": 180.0
+    },
+    "info": {
+      "attack": 3,
+      "defense": 9,
+      "magic": 4,
+      "difficulty": 3
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_warden"
+  },
+  {
+    "name": "Briar",
+    "champion_id": "Briar",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 2,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5,
+      "ap": 0.88,
+      "hp": 0.6
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 625,
+      "mp": 0,
+      "armor": 30,
+      "spellblock": 32,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 4609.5,
+      "ap": 4072.5,
+      "hp": 100.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 3
+    },
+    "resource": "FRENZY",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Caitlyn",
+    "champion_id": "Caitlyn",
+    "roles": [
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.19
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 580,
+      "mp": 315,
+      "armor": 27,
+      "spellblock": 30,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 650
+    },
+    "spell_ratios": {
+      "ad": 2090.0,
+      "ap": 400.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 2,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Camille",
+    "champion_id": "Camille",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 650,
+      "mp": 339,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 68,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 1443.75,
+      "hp": 84.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 6,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Cassiopeia",
+    "champion_id": "Cassiopeia",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 1.0,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 480,
+      "armor": 18,
+      "spellblock": 32,
+      "attackdamage": 53,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1521.45
+    },
+    "info": {
+      "attack": 2,
+      "defense": 3,
+      "magic": 9,
+      "difficulty": 10
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Cho'Gath",
+    "champion_id": "Chogath",
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 644,
+      "mp": 270,
+      "armor": 38,
+      "spellblock": 32,
+      "attackdamage": 69,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 1750.0,
+      "hp": 138.0
+    },
+    "info": {
+      "attack": 3,
+      "defense": 7,
+      "magic": 7,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Corki",
+    "champion_id": "Corki",
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.36
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 350,
+      "armor": 27,
+      "spellblock": 30,
+      "attackdamage": 52,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ad": 3890.0,
+      "ap": 1400.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 3,
+      "magic": 6,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Darius",
+    "champion_id": "Darius",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 652,
+      "mp": 263,
+      "armor": 37,
+      "spellblock": 32,
+      "attackdamage": 64,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 1965.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 5,
+      "magic": 1,
+      "difficulty": 2
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Diana",
+    "champion_id": "Diana",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 1,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5,
+      "hp": 0.6
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 640,
+      "mp": 375,
+      "armor": 31,
+      "spellblock": 32,
+      "attackdamage": 57,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ap": 2045.0,
+      "hp": 135.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Draven",
+    "champion_id": "Draven",
+    "roles": [
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 675,
+      "mp": 361,
+      "armor": 29,
+      "spellblock": 30,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ad": 2715.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 3,
+      "magic": 1,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Dr. Mundo",
+    "champion_id": "DrMundo",
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "damage_profile": 0,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 0.6,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 640,
+      "mp": 0,
+      "armor": 32,
+      "spellblock": 29,
+      "attackdamage": 61,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "hp": 637.0
+    },
+    "info": {
+      "attack": 5,
+      "defense": 7,
+      "magic": 6,
+      "difficulty": 5
+    },
+    "resource": "HEALTH",
+    "damage_intensity": "low",
+    "_debug_dp": "physical",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Ekko",
+    "champion_id": "Ekko",
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5,
+      "hp": 0.6
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 655,
+      "mp": 280,
+      "armor": 32,
+      "spellblock": 32,
+      "attackdamage": 58,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 2555.0,
+      "hp": 9.0
+    },
+    "info": {
+      "attack": 5,
+      "defense": 3,
+      "magic": 7,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Elise",
+    "champion_id": "Elise",
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 620,
+      "mp": 324,
+      "armor": 30,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 435.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 5,
+      "magic": 7,
+      "difficulty": 9
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Evelynn",
+    "champion_id": "Evelynn",
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 642,
+      "mp": 315,
+      "armor": 37,
+      "spellblock": 32,
+      "attackdamage": 61,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 3100.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 2,
+      "magic": 7,
+      "difficulty": 10
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Ezreal",
+    "champion_id": "Ezreal",
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "damage_profile": 2,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.71
+    },
+    "mana_need": 1.0,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 375,
+      "armor": 24,
+      "spellblock": 30,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ad": 1850.0,
+      "ap": 1305.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 2,
+      "magic": 6,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Fiddlesticks",
+    "champion_id": "Fiddlesticks",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 650,
+      "mp": 500,
+      "armor": 34,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 480
+    },
+    "spell_ratios": {
+      "hp": 445.58,
+      "ap": 2424.62
+    },
+    "info": {
+      "attack": 2,
+      "defense": 3,
+      "magic": 9,
+      "difficulty": 9
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Fiora",
+    "champion_id": "Fiora",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 42,
+    "stat_weights": {
+      "ad": 1.0,
+      "attack_speed": 0.7,
+      "lifesteal": 0.6,
+      "hp": 0.5,
+      "ap": 0.3
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 620,
+      "mp": 300,
+      "armor": 33,
+      "spellblock": 32,
+      "attackdamage": 66,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ad": 1675.0,
+      "ap": 500.0
+    },
+    "info": {
+      "attack": 10,
+      "defense": 4,
+      "magic": 2,
+      "difficulty": 3
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "skirmisher"
+  },
+  {
+    "name": "Fizz",
+    "champion_id": "Fizz",
+    "roles": [
+      "Assassin",
+      "Fighter"
+    ],
+    "damage_profile": 1,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 640,
+      "mp": 317,
+      "armor": 26,
+      "spellblock": 32,
+      "attackdamage": 58,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ap": 2700.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 4,
+      "magic": 7,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Galio",
+    "champion_id": "Galio",
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 50,
+    "stat_weights": {
+      "hp": 1.0,
+      "armor": 0.9,
+      "mr": 0.8,
+      "ability_haste": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 410,
+      "armor": 24,
+      "spellblock": 32,
+      "attackdamage": 59,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ap": 1997.5,
+      "hp": 75.0
+    },
+    "info": {
+      "attack": 1,
+      "defense": 10,
+      "magic": 6,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_vanguard"
+  },
+  {
+    "name": "Gangplank",
+    "champion_id": "Gangplank",
+    "roles": [
+      "Fighter"
+    ],
+    "damage_profile": 2,
+    "archetype": 42,
+    "stat_weights": {
+      "ad": 0.8,
+      "attack_speed": 0.7,
+      "lifesteal": 0.6,
+      "hp": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      5
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 280,
+      "armor": 31,
+      "spellblock": 32,
+      "attackdamage": 64,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 500.0,
+      "ap": 2640.0,
+      "hp": 65.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 6,
+      "magic": 4,
+      "difficulty": 9
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "skirmisher"
+  },
+  {
+    "name": "Garen",
+    "champion_id": "Garen",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 690,
+      "mp": 0,
+      "armor": 38,
+      "spellblock": 32,
+      "attackdamage": 69,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 790.0,
+      "hp": 195.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 7,
+      "magic": 1,
+      "difficulty": 5
+    },
+    "resource": "NONE",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Gnar",
+    "champion_id": "Gnar",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.5
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 540,
+      "mp": 100,
+      "armor": 32,
+      "spellblock": 30,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 2512.5,
+      "hp": 130.0,
+      "ap": 1250.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 5,
+      "magic": 5,
+      "difficulty": 8
+    },
+    "resource": "RAGE",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Gragas",
+    "champion_id": "Gragas",
+    "roles": [
+      "Fighter",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 640,
+      "mp": 400,
+      "armor": 38,
+      "spellblock": 32,
+      "attackdamage": 64,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 2960.0,
+      "hp": 35.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 7,
+      "magic": 6,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Graves",
+    "champion_id": "Graves",
+    "roles": [
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.1
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 625,
+      "mp": 325,
+      "armor": 33,
+      "spellblock": 30,
+      "attackdamage": 66,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 425
+    },
+    "spell_ratios": {
+      "ad": 3010.0,
+      "ap": 300.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 3
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Gwen",
+    "champion_id": "Gwen",
+    "roles": [
+      "Fighter"
+    ],
+    "damage_profile": 1,
+    "archetype": 42,
+    "stat_weights": {
+      "ad": 0.8,
+      "attack_speed": 0.7,
+      "lifesteal": 0.6,
+      "hp": 0.5,
+      "ap": 1.0
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 620,
+      "mp": 330,
+      "armor": 39,
+      "spellblock": 32,
+      "attackdamage": 63,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ap": 1875.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 4,
+      "magic": 5,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "skirmisher"
+  },
+  {
+    "name": "Hecarim",
+    "champion_id": "Hecarim",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.61
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 625,
+      "mp": 280,
+      "armor": 32,
+      "spellblock": 32,
+      "attackdamage": 66,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 1470.0,
+      "ap": 900.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 6,
+      "magic": 4,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Heimerdinger",
+    "champion_id": "Heimerdinger",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 11,
+    "stat_weights": {
+      "ap": 1.0,
+      "mana": 0.7,
+      "ability_haste": 0.8,
+      "hp": 0.4
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 558,
+      "mp": 385,
+      "armor": 19,
+      "spellblock": 30,
+      "attackdamage": 56,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1863.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "control_mage"
+  },
+  {
+    "name": "Hwei",
+    "champion_id": "Hwei",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 11,
+    "stat_weights": {
+      "ap": 1.0,
+      "mana": 0.7,
+      "ability_haste": 0.8,
+      "hp": 0.6
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 580,
+      "mp": 480,
+      "armor": 21,
+      "spellblock": 30,
+      "attackdamage": 54,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 4390.0,
+      "hp": 35.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 1,
+      "magic": 8,
+      "difficulty": 9
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "control_mage"
+  },
+  {
+    "name": "Illaoi",
+    "champion_id": "Illaoi",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 656,
+      "mp": 350,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 65,
+      "attackspeed": 0,
+      "movespeed": 350,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "hp": 25.0,
+      "ad": 210.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 6,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Irelia",
+    "champion_id": "Irelia",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 2,
+    "archetype": 42,
+    "stat_weights": {
+      "ad": 0.86,
+      "attack_speed": 0.7,
+      "lifesteal": 0.6,
+      "hp": 0.5,
+      "ap": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      5
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 350,
+      "armor": 36,
+      "spellblock": 30,
+      "attackdamage": 65,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 200
+    },
+    "spell_ratios": {
+      "ad": 1215.0,
+      "ap": 1410.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 4,
+      "magic": 5,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "skirmisher"
+  },
+  {
+    "name": "Ivern",
+    "champion_id": "Ivern",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 60,
+    "stat_weights": {
+      "ability_haste": 1.0,
+      "ap": 1.0,
+      "mana_regen": 0.7,
+      "hp": 0.3
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 450,
+      "armor": 27,
+      "spellblock": 30,
+      "attackdamage": 50,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 475
+    },
+    "spell_ratios": {
+      "ap": 1150.0
+    },
+    "info": {
+      "attack": 3,
+      "defense": 5,
+      "magic": 7,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "enchanter"
+  },
+  {
+    "name": "Janna",
+    "champion_id": "Janna",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 60,
+    "stat_weights": {
+      "ability_haste": 1.0,
+      "ap": 1.0,
+      "mana_regen": 0.7,
+      "hp": 0.3
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 570,
+      "mp": 360,
+      "armor": 28,
+      "spellblock": 30,
+      "attackdamage": 47,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1802.5
+    },
+    "info": {
+      "attack": 3,
+      "defense": 5,
+      "magic": 7,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "enchanter"
+  },
+  {
+    "name": "Jarvan IV",
+    "champion_id": "JarvanIV",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.25
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 640,
+      "mp": 300,
+      "armor": 36,
+      "spellblock": 32,
+      "attackdamage": 64,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 1615.0,
+      "ap": 400.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 8,
+      "magic": 3,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Jax",
+    "champion_id": "Jax",
+    "roles": [
+      "Fighter"
+    ],
+    "damage_profile": 2,
+    "archetype": 42,
+    "stat_weights": {
+      "ad": 0.8,
+      "attack_speed": 0.7,
+      "lifesteal": 0.6,
+      "hp": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      5
+    ],
+    "base_stats": {
+      "hp": 650,
+      "mp": 339,
+      "armor": 36,
+      "spellblock": 32,
+      "attackdamage": 68,
+      "attackspeed": 0,
+      "movespeed": 350,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 740.0,
+      "ap": 1830.0,
+      "hp": 52.5
+    },
+    "info": {
+      "attack": 7,
+      "defense": 5,
+      "magic": 7,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "skirmisher"
+  },
+  {
+    "name": "Jayce",
+    "champion_id": "Jayce",
+    "roles": [
+      "Fighter",
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.18
+    },
+    "mana_need": 1.0,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 590,
+      "mp": 375,
+      "armor": 22,
+      "spellblock": 30,
+      "attackdamage": 59,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 4086.0,
+      "ap": 750.0,
+      "hp": 132.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 4,
+      "magic": 3,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Jhin",
+    "champion_id": "Jhin",
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.48
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 655,
+      "mp": 300,
+      "armor": 24,
+      "spellblock": 30,
+      "attackdamage": 61,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ad": 3810.5,
+      "ap": 1845.0
+    },
+    "info": {
+      "attack": 10,
+      "defense": 2,
+      "magic": 6,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Jinx",
+    "champion_id": "Jinx",
+    "roles": [
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.31,
+      "hp": 0.6
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 260,
+      "armor": 26,
+      "spellblock": 30,
+      "attackdamage": 59,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ad": 1620.7,
+      "ap": 500.0,
+      "hp": 378.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 2,
+      "magic": 4,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Kai'Sa",
+    "champion_id": "Kaisa",
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "damage_profile": 2,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.41
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 640,
+      "mp": 345,
+      "armor": 25,
+      "spellblock": 30,
+      "attackdamage": 59,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ad": 3183.75,
+      "ap": 1310.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Kalista",
+    "champion_id": "Kalista",
+    "roles": [
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.21,
+      "hp": 0.6
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 560,
+      "mp": 300,
+      "armor": 24,
+      "spellblock": 30,
+      "attackdamage": 57,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ad": 1075.0,
+      "hp": 90.0,
+      "ap": 225.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 4,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Karma",
+    "champion_id": "Karma",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 60,
+    "stat_weights": {
+      "ability_haste": 1.0,
+      "ap": 1.0,
+      "mana_regen": 0.7,
+      "hp": 0.3
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 374,
+      "armor": 28,
+      "spellblock": 30,
+      "attackdamage": 49,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 870.0
+    },
+    "info": {
+      "attack": 1,
+      "defense": 7,
+      "magic": 8,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "enchanter"
+  },
+  {
+    "name": "Karthus",
+    "champion_id": "Karthus",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 620,
+      "mp": 467,
+      "armor": 21,
+      "spellblock": 30,
+      "attackdamage": 46,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 450
+    },
+    "spell_ratios": {
+      "ap": 860.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 10,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Kassadin",
+    "champion_id": "Kassadin",
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.8,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 646,
+      "mp": 400,
+      "armor": 21,
+      "spellblock": 30,
+      "attackdamage": 59,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ap": 1664.0
+    },
+    "info": {
+      "attack": 3,
+      "defense": 5,
+      "magic": 8,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Katarina",
+    "champion_id": "Katarina",
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "damage_profile": 2,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5,
+      "ad": 1.0
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 672,
+      "mp": 0,
+      "armor": 32,
+      "spellblock": 32,
+      "attackdamage": 58,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 1237.0,
+      "ad": 3368.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 3,
+      "magic": 9,
+      "difficulty": 8
+    },
+    "resource": "NONE",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Kayle",
+    "champion_id": "Kayle",
+    "roles": [
+      "Mage",
+      "Marksman"
+    ],
+    "damage_profile": 2,
+    "archetype": 31,
+    "stat_weights": {
+      "attack_speed": 1.0,
+      "ad": 0.89,
+      "ap": 1.0,
+      "hp": 0.6
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 670,
+      "mp": 330,
+      "armor": 26,
+      "spellblock": 22,
+      "attackdamage": 50,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 650.0,
+      "ap": 732.5,
+      "hp": 50.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 6,
+      "magic": 7,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "on_hit_marksman"
+  },
+  {
+    "name": "Kayn",
+    "champion_id": "Kayn",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 655,
+      "mp": 410,
+      "armor": 38,
+      "spellblock": 32,
+      "attackdamage": 68,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 3775.0
+    },
+    "info": {
+      "attack": 10,
+      "defense": 6,
+      "magic": 1,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Kennen",
+    "champion_id": "Kennen",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3,
+      "ad": 0.27
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 580,
+      "mp": 200,
+      "armor": 29,
+      "spellblock": 30,
+      "attackdamage": 48,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 2183.75,
+      "ad": 600.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 4,
+      "magic": 7,
+      "difficulty": 4
+    },
+    "resource": "ENERGY",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Kha'Zix",
+    "champion_id": "Khazix",
+    "roles": [
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5,
+      "ap": 0.1
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 643,
+      "mp": 327,
+      "armor": 32,
+      "spellblock": 32,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 2405.0,
+      "ap": 250.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 4,
+      "magic": 3,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Kindred",
+    "champion_id": "Kindred",
+    "roles": [
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.15,
+      "hp": 0.6
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 595,
+      "mp": 300,
+      "armor": 29,
+      "spellblock": 30,
+      "attackdamage": 65,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 500
+    },
+    "spell_ratios": {
+      "ad": 1625.0,
+      "ap": 250.0,
+      "hp": 81.25
+    },
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 2,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Kled",
+    "champion_id": "Kled",
+    "roles": [
+      "Fighter"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 410,
+      "mp": 100,
+      "armor": 35,
+      "spellblock": 28,
+      "attackdamage": 65,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 5108.5,
+      "hp": 96.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 2,
+      "difficulty": 7
+    },
+    "resource": "COURAGE",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Kog'Maw",
+    "champion_id": "KogMaw",
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "damage_profile": 2,
+    "archetype": 31,
+    "stat_weights": {
+      "attack_speed": 1.0,
+      "ad": 0.65,
+      "ap": 1.0,
+      "hp": 0.6
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 635,
+      "mp": 325,
+      "armor": 24,
+      "spellblock": 30,
+      "attackdamage": 61,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 500
+    },
+    "spell_ratios": {
+      "ap": 1045.0,
+      "hp": 30.0,
+      "ad": 675.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 5,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "on_hit_marksman"
+  },
+  {
+    "name": "K'Sante",
+    "champion_id": "KSante",
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "damage_profile": 0,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 0.6,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 625,
+      "mp": 320,
+      "armor": 36,
+      "spellblock": 30,
+      "attackdamage": 64,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "hp": 253.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 8,
+      "magic": 7,
+      "difficulty": 9
+    },
+    "resource": "MANA",
+    "damage_intensity": "low",
+    "_debug_dp": "physical",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "LeBlanc",
+    "champion_id": "Leblanc",
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 598,
+      "mp": 400,
+      "armor": 22,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 3895.0
+    },
+    "info": {
+      "attack": 1,
+      "defense": 4,
+      "magic": 10,
+      "difficulty": 9
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Lee Sin",
+    "champion_id": "LeeSin",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.1
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 645,
+      "mp": 200,
+      "armor": 36,
+      "spellblock": 32,
+      "attackdamage": 66,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 4000.0,
+      "ap": 400.0,
+      "hp": 54.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 6
+    },
+    "resource": "ENERGY",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Leona",
+    "champion_id": "Leona",
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "damage_profile": 2,
+    "archetype": 50,
+    "stat_weights": {
+      "hp": 1.0,
+      "armor": 0.9,
+      "mr": 0.8,
+      "ability_haste": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5
+    ],
+    "base_stats": {
+      "hp": 646,
+      "mp": 302,
+      "armor": 43,
+      "spellblock": 32,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 790.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 8,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "tank_vanguard"
+  },
+  {
+    "name": "Lillia",
+    "champion_id": "Lillia",
+    "roles": [
+      "Fighter",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 605,
+      "mp": 410,
+      "armor": 22,
+      "spellblock": 32,
+      "attackdamage": 61,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 325
+    },
+    "spell_ratios": {
+      "ap": 2020.0
+    },
+    "info": {
+      "attack": 0,
+      "defense": 2,
+      "magic": 10,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Lissandra",
+    "champion_id": "Lissandra",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 620,
+      "mp": 475,
+      "armor": 22,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1794.5
+    },
+    "info": {
+      "attack": 2,
+      "defense": 5,
+      "magic": 8,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Lucian",
+    "champion_id": "Lucian",
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.61
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 641,
+      "mp": 320,
+      "armor": 28,
+      "spellblock": 30,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 500
+    },
+    "spell_ratios": {
+      "ad": 7125.0,
+      "ap": 4365.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Lulu",
+    "champion_id": "Lulu",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 60,
+    "stat_weights": {
+      "ability_haste": 1.0,
+      "ap": 1.0,
+      "mana_regen": 0.7,
+      "hp": 0.3
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 565,
+      "mp": 350,
+      "armor": 26,
+      "spellblock": 30,
+      "attackdamage": 47,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1965.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 5,
+      "magic": 7,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "enchanter"
+  },
+  {
+    "name": "Lux",
+    "champion_id": "Lux",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 580,
+      "mp": 440,
+      "armor": 21,
+      "spellblock": 30,
+      "attackdamage": 54,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1685.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 4,
+      "magic": 9,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Malphite",
+    "champion_id": "Malphite",
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 50,
+    "stat_weights": {
+      "hp": 1.0,
+      "armor": 0.9,
+      "mr": 0.8,
+      "ability_haste": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 665,
+      "mp": 280,
+      "armor": 40,
+      "spellblock": 28,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 1120.0
+    },
+    "info": {
+      "attack": 5,
+      "defense": 9,
+      "magic": 7,
+      "difficulty": 2
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_vanguard"
+  },
+  {
+    "name": "Malzahar",
+    "champion_id": "Malzahar",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 11,
+    "stat_weights": {
+      "ap": 1.0,
+      "mana": 0.7,
+      "ability_haste": 0.8,
+      "hp": 0.6,
+      "ad": 0.58
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 580,
+      "mp": 375,
+      "armor": 18,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 500
+    },
+    "spell_ratios": {
+      "ap": 1372.25,
+      "ad": 800.0,
+      "hp": 66.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 9,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "control_mage"
+  },
+  {
+    "name": "Maokai",
+    "champion_id": "Maokai",
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 50,
+    "stat_weights": {
+      "hp": 1.0,
+      "armor": 0.9,
+      "mr": 0.8,
+      "ability_haste": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 665,
+      "mp": 375,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 64,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "hp": 131.65,
+      "ap": 1283.35
+    },
+    "info": {
+      "attack": 3,
+      "defense": 8,
+      "magic": 6,
+      "difficulty": 3
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_vanguard"
+  },
+  {
+    "name": "Master Yi",
+    "champion_id": "MasterYi",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 2,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5,
+      "ap": 0.74
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 640,
+      "mp": 251,
+      "armor": 33,
+      "spellblock": 32,
+      "attackdamage": 65,
+      "attackspeed": 0,
+      "movespeed": 355,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 2275.0,
+      "ap": 1687.5
+    },
+    "info": {
+      "attack": 10,
+      "defense": 4,
+      "magic": 2,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Mel",
+    "champion_id": "Mel",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 480,
+      "armor": 21,
+      "spellblock": 30,
+      "attackdamage": 54,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1480.62
+    },
+    "info": {
+      "attack": 2,
+      "defense": 4,
+      "magic": 9,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Milio",
+    "champion_id": "Milio",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 60,
+    "stat_weights": {
+      "ability_haste": 1.0,
+      "ap": 1.0,
+      "mana_regen": 0.7,
+      "hp": 0.3
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 560,
+      "mp": 365,
+      "armor": 26,
+      "spellblock": 30,
+      "attackdamage": 48,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 1078.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 4,
+      "magic": 8,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "enchanter"
+  },
+  {
+    "name": "Miss Fortune",
+    "champion_id": "MissFortune",
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.48
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 625,
+      "mp": 300,
+      "armor": 25,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ad": 4550.0,
+      "ap": 2200.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 5,
+      "difficulty": 1
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Wukong",
+    "champion_id": "MonkeyKing",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.18
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 330,
+      "armor": 31,
+      "spellblock": 28,
+      "attackdamage": 66,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 2853.12,
+      "ap": 500.0,
+      "hp": 150.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 2,
+      "difficulty": 3
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Mordekaiser",
+    "champion_id": "Mordekaiser",
+    "roles": [
+      "Fighter",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 0.6,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5,
+      "ap": 1.0
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 645,
+      "mp": 100,
+      "armor": 37,
+      "spellblock": 32,
+      "attackdamage": 61,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ap": 550.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 6,
+      "magic": 7,
+      "difficulty": 4
+    },
+    "resource": "SHIELD",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Morgana",
+    "champion_id": "Morgana",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 340,
+      "armor": 25,
+      "spellblock": 30,
+      "attackdamage": 56,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 450
+    },
+    "spell_ratios": {
+      "ap": 3249.75
+    },
+    "info": {
+      "attack": 1,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 1
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Naafiri",
+    "champion_id": "Naafiri",
+    "roles": [
+      "Assassin",
+      "Fighter"
+    ],
+    "damage_profile": 0,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 400,
+      "armor": 28,
+      "spellblock": 32,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 6086.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 5,
+      "magic": 0,
+      "difficulty": 2
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Nami",
+    "champion_id": "Nami",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 60,
+    "stat_weights": {
+      "ability_haste": 1.0,
+      "ap": 1.0,
+      "mana_regen": 0.7,
+      "hp": 0.3
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 560,
+      "mp": 365,
+      "armor": 29,
+      "spellblock": 30,
+      "attackdamage": 54,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1665.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 3,
+      "magic": 7,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "enchanter"
+  },
+  {
+    "name": "Nasus",
+    "champion_id": "Nasus",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 2,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 0.6,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5,
+      "ap": 1.0
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      4,
+      5
+    ],
+    "base_stats": {
+      "hp": 650,
+      "mp": 326,
+      "armor": 34,
+      "spellblock": 32,
+      "attackdamage": 67,
+      "attackspeed": 0,
+      "movespeed": 350,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 1006.5,
+      "hp": 232.5
+    },
+    "info": {
+      "attack": 7,
+      "defense": 5,
+      "magic": 6,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Nautilus",
+    "champion_id": "Nautilus",
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 50,
+    "stat_weights": {
+      "hp": 1.0,
+      "armor": 0.9,
+      "mr": 0.8,
+      "ability_haste": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 646,
+      "mp": 400,
+      "armor": 39,
+      "spellblock": 32,
+      "attackdamage": 61,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ap": 3197.5,
+      "hp": 60.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 6,
+      "magic": 6,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_vanguard"
+  },
+  {
+    "name": "Neeko",
+    "champion_id": "Neeko",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 450,
+      "armor": 21,
+      "spellblock": 30,
+      "attackdamage": 48,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1960.0
+    },
+    "info": {
+      "attack": 1,
+      "defense": 1,
+      "magic": 9,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Nidalee",
+    "champion_id": "Nidalee",
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "damage_profile": 2,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5,
+      "ad": 1.0
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 295,
+      "armor": 32,
+      "spellblock": 30,
+      "attackdamage": 58,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 1531.5,
+      "ad": 2190.0
+    },
+    "info": {
+      "attack": 5,
+      "defense": 4,
+      "magic": 7,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Nilah",
+    "champion_id": "Nilah",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 570,
+      "mp": 350,
+      "armor": 27,
+      "spellblock": 32,
+      "attackdamage": 58,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 225
+    },
+    "spell_ratios": {
+      "ad": 2620.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 4,
+      "magic": 4,
+      "difficulty": 10
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Nocturne",
+    "champion_id": "Nocturne",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 2,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5,
+      "ap": 0.8
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 655,
+      "mp": 275,
+      "armor": 38,
+      "spellblock": 32,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 785.0,
+      "ap": 625.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 5,
+      "magic": 2,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Nunu & Willump",
+    "champion_id": "Nunu",
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 50,
+    "stat_weights": {
+      "hp": 1.0,
+      "armor": 0.9,
+      "mr": 0.8,
+      "ability_haste": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 280,
+      "armor": 29,
+      "spellblock": 32,
+      "attackdamage": 61,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 6049.7,
+      "hp": 375.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 6,
+      "magic": 7,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_vanguard"
+  },
+  {
+    "name": "Olaf",
+    "champion_id": "Olaf",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 645,
+      "mp": 316,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 68,
+      "attackspeed": 0,
+      "movespeed": 350,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 1325.0,
+      "hp": 87.5
+    },
+    "info": {
+      "attack": 9,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 3
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Orianna",
+    "champion_id": "Orianna",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 11,
+    "stat_weights": {
+      "ap": 1.0,
+      "mana": 0.7,
+      "ability_haste": 0.8,
+      "hp": 0.4
+    },
+    "mana_need": 0.6,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 585,
+      "mp": 418,
+      "armor": 20,
+      "spellblock": 26,
+      "attackdamage": 44,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 1477.5
+    },
+    "info": {
+      "attack": 4,
+      "defense": 3,
+      "magic": 9,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "control_mage"
+  },
+  {
+    "name": "Ornn",
+    "champion_id": "Ornn",
+    "roles": [
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 51,
+    "stat_weights": {
+      "hp": 0.9,
+      "armor": 1.0,
+      "mr": 0.9,
+      "ability_haste": 0.5,
+      "ap": 0.33,
+      "ad": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 660,
+      "mp": 341,
+      "armor": 33,
+      "spellblock": 32,
+      "attackdamage": 69,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 550.0,
+      "hp": 96.0,
+      "ap": 180.0
+    },
+    "info": {
+      "attack": 5,
+      "defense": 9,
+      "magic": 3,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "tank_warden"
+  },
+  {
+    "name": "Pantheon",
+    "champion_id": "Pantheon",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.31
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 650,
+      "mp": 317,
+      "armor": 40,
+      "spellblock": 28,
+      "attackdamage": 64,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 5062.5,
+      "ap": 1582.5,
+      "hp": 42.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 4,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Poppy",
+    "champion_id": "Poppy",
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "damage_profile": 0,
+    "archetype": 51,
+    "stat_weights": {
+      "hp": 0.9,
+      "armor": 1.0,
+      "mr": 0.9,
+      "ability_haste": 0.5,
+      "ap": 0.08,
+      "ad": 1.0
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 280,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 4305.0,
+      "hp": 135.0,
+      "ap": 350.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 7,
+      "magic": 2,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "tank_warden"
+  },
+  {
+    "name": "Pyke",
+    "champion_id": "Pyke",
+    "roles": [
+      "Support",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 61,
+    "stat_weights": {
+      "ability_haste": 0.8,
+      "ap": 0.5,
+      "hp": 0.5,
+      "mana": 0.6,
+      "ad": 1.0
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 670,
+      "mp": 415,
+      "armor": 37,
+      "spellblock": 32,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ad": 875.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 3,
+      "magic": 1,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "catcher"
+  },
+  {
+    "name": "Qiyana",
+    "champion_id": "Qiyana",
+    "roles": [
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5,
+      "ap": 0.06,
+      "hp": 0.6
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 590,
+      "mp": 375,
+      "armor": 31,
+      "spellblock": 32,
+      "attackdamage": 64,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ad": 4002.5,
+      "ap": 225.0,
+      "hp": 30.0
+    },
+    "info": {
+      "attack": 0,
+      "defense": 2,
+      "magic": 4,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Quinn",
+    "champion_id": "Quinn",
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.36
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 565,
+      "mp": 269,
+      "armor": 28,
+      "spellblock": 30,
+      "attackdamage": 59,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ad": 700.0,
+      "ap": 250.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 4,
+      "magic": 2,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Rakan",
+    "champion_id": "Rakan",
+    "roles": [
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 61,
+    "stat_weights": {
+      "ability_haste": 0.8,
+      "ap": 1.0,
+      "hp": 0.5,
+      "mana": 0.6
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      3
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 315,
+      "armor": 30,
+      "spellblock": 32,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 300
+    },
+    "spell_ratios": {
+      "ap": 1250.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 4,
+      "magic": 8,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "catcher"
+  },
+  {
+    "name": "Rammus",
+    "champion_id": "Rammus",
+    "roles": [
+      "Tank"
+    ],
+    "damage_profile": 2,
+    "archetype": 51,
+    "stat_weights": {
+      "hp": 0.9,
+      "armor": 1.0,
+      "mr": 0.9,
+      "ability_haste": 0.5,
+      "ap": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5
+    ],
+    "base_stats": {
+      "hp": 645,
+      "mp": 310,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 65,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 1030.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 10,
+      "magic": 5,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "tank_warden"
+  },
+  {
+    "name": "Rek'Sai",
+    "champion_id": "RekSai",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.54
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 100,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 1395.0,
+      "ap": 750.0,
+      "hp": 75.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 2,
+      "difficulty": 3
+    },
+    "resource": "RAGE",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Rell",
+    "champion_id": "Rell",
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 62,
+    "stat_weights": {
+      "hp": 0.9,
+      "armor": 0.8,
+      "mr": 0.7,
+      "ability_haste": 0.8,
+      "ap": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 620,
+      "mp": 320,
+      "armor": 30,
+      "spellblock": 28,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 315,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ap": 1186.25,
+      "hp": 100.0
+    },
+    "info": {
+      "attack": 0,
+      "defense": 0,
+      "magic": 0,
+      "difficulty": 0
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_support"
+  },
+  {
+    "name": "Renata Glasc",
+    "champion_id": "Renata",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 60,
+    "stat_weights": {
+      "ability_haste": 1.0,
+      "ap": 1.0,
+      "mana_regen": 0.7,
+      "hp": 0.3
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 545,
+      "mp": 350,
+      "armor": 27,
+      "spellblock": 30,
+      "attackdamage": 49,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 955.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 6,
+      "magic": 9,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "enchanter"
+  },
+  {
+    "name": "Renekton",
+    "champion_id": "Renekton",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.06
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 660,
+      "mp": 100,
+      "armor": 35,
+      "spellblock": 28,
+      "attackdamage": 69,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 7670.0,
+      "ap": 465.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 2,
+      "difficulty": 3
+    },
+    "resource": "FURY",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Rengar",
+    "champion_id": "Rengar",
+    "roles": [
+      "Assassin",
+      "Fighter"
+    ],
+    "damage_profile": 2,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5,
+      "ap": 0.84
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 590,
+      "mp": 4,
+      "armor": 34,
+      "spellblock": 32,
+      "attackdamage": 68,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 475.0,
+      "ap": 400.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 4,
+      "magic": 2,
+      "difficulty": 8
+    },
+    "resource": "FEROCITY",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Riven",
+    "champion_id": "Riven",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 0,
+      "armor": 33,
+      "spellblock": 32,
+      "attackdamage": 64,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 3470.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 1,
+      "difficulty": 8
+    },
+    "resource": "NONE",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Rumble",
+    "champion_id": "Rumble",
+    "roles": [
+      "Fighter",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 640,
+      "mp": 150,
+      "armor": 36,
+      "spellblock": 28,
+      "attackdamage": 64,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 5464.81,
+      "hp": 261.8
+    },
+    "info": {
+      "attack": 3,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 10
+    },
+    "resource": "HEAT",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Ryze",
+    "champion_id": "Ryze",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 1.0,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 645,
+      "mp": 300,
+      "armor": 22,
+      "spellblock": 32,
+      "attackdamage": 58,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 875.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 10,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Samira",
+    "champion_id": "Samira",
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 349,
+      "armor": 26,
+      "spellblock": 30,
+      "attackdamage": 57,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 500
+    },
+    "spell_ratios": {
+      "ad": 3331.25
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Sejuani",
+    "champion_id": "Sejuani",
+    "roles": [
+      "Tank"
+    ],
+    "damage_profile": 1,
+    "archetype": 50,
+    "stat_weights": {
+      "hp": 1.0,
+      "armor": 0.9,
+      "mr": 0.8,
+      "ability_haste": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 400,
+      "armor": 34,
+      "spellblock": 32,
+      "attackdamage": 66,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ap": 1760.0,
+      "hp": 120.0
+    },
+    "info": {
+      "attack": 5,
+      "defense": 7,
+      "magic": 6,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_vanguard"
+  },
+  {
+    "name": "Senna",
+    "champion_id": "Senna",
+    "roles": [
+      "Support",
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.56
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 530,
+      "mp": 350,
+      "armor": 25,
+      "spellblock": 30,
+      "attackdamage": 50,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 600
+    },
+    "spell_ratios": {
+      "ad": 1095.0,
+      "ap": 610.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 2,
+      "magic": 6,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Seraphine",
+    "champion_id": "Seraphine",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 60,
+    "stat_weights": {
+      "ability_haste": 1.0,
+      "ap": 1.0,
+      "mana_regen": 0.7,
+      "hp": 0.6
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 570,
+      "mp": 360,
+      "armor": 26,
+      "spellblock": 30,
+      "attackdamage": 50,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 1332.5,
+      "hp": 25.0
+    },
+    "info": {
+      "attack": 0,
+      "defense": 0,
+      "magic": 0,
+      "difficulty": 0
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "enchanter"
+  },
+  {
+    "name": "Sett",
+    "champion_id": "Sett",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 670,
+      "mp": 0,
+      "armor": 33,
+      "spellblock": 28,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 1190.0,
+      "hp": 225.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 1,
+      "difficulty": 2
+    },
+    "resource": "GRIT",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Shaco",
+    "champion_id": "Shaco",
+    "roles": [
+      "Assassin"
+    ],
+    "damage_profile": 2,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5,
+      "ap": 1.0
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 297,
+      "armor": 30,
+      "spellblock": 32,
+      "attackdamage": 63,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 1325.0,
+      "ap": 1335.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 4,
+      "magic": 6,
+      "difficulty": 9
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Shen",
+    "champion_id": "Shen",
+    "roles": [
+      "Tank"
+    ],
+    "damage_profile": 2,
+    "archetype": 51,
+    "stat_weights": {
+      "hp": 0.9,
+      "armor": 1.0,
+      "mr": 0.9,
+      "ability_haste": 0.5,
+      "ap": 1.0
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      4,
+      5
+    ],
+    "base_stats": {
+      "hp": 610,
+      "mp": 400,
+      "armor": 34,
+      "spellblock": 32,
+      "attackdamage": 64,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 1273.0,
+      "hp": 172.0
+    },
+    "info": {
+      "attack": 3,
+      "defense": 9,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "resource": "ENERGY",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "tank_warden"
+  },
+  {
+    "name": "Shyvana",
+    "champion_id": "Shyvana",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 2,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5,
+      "ap": 0.96
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      4,
+      5
+    ],
+    "base_stats": {
+      "hp": 625,
+      "mp": 100,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 350,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ad": 1325.0,
+      "ap": 1275.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 6,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "resource": "FURY",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Singed",
+    "champion_id": "Singed",
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 650,
+      "mp": 330,
+      "armor": 34,
+      "spellblock": 32,
+      "attackdamage": 63,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ap": 753.12,
+      "hp": 40.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 8,
+      "magic": 7,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Sion",
+    "champion_id": "Sion",
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "damage_profile": 0,
+    "archetype": 50,
+    "stat_weights": {
+      "hp": 1.0,
+      "armor": 0.9,
+      "mr": 0.8,
+      "ability_haste": 0.6,
+      "ap": 0.13,
+      "ad": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 655,
+      "mp": 400,
+      "armor": 36,
+      "spellblock": 32,
+      "attackdamage": 68,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 5320.0,
+      "ap": 675.0,
+      "hp": 150.0
+    },
+    "info": {
+      "attack": 5,
+      "defense": 9,
+      "magic": 3,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "tank_vanguard"
+  },
+  {
+    "name": "Sivir",
+    "champion_id": "Sivir",
+    "roles": [
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.39
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 340,
+      "armor": 30,
+      "spellblock": 30,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 500
+    },
+    "spell_ratios": {
+      "ad": 3234.38,
+      "ap": 1270.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 3,
+      "magic": 1,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Skarner",
+    "champion_id": "Skarner",
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "damage_profile": 0,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5,
+      "ap": 0.29
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 320,
+      "armor": 33,
+      "spellblock": 32,
+      "attackdamage": 63,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ad": 2400.0,
+      "hp": 160.0,
+      "ap": 700.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 8,
+      "magic": 5,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Smolder",
+    "champion_id": "Smolder",
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.22
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 575,
+      "mp": 300,
+      "armor": 24,
+      "spellblock": 30,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ad": 7902.5,
+      "ap": 1775.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 5,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Sona",
+    "champion_id": "Sona",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 60,
+    "stat_weights": {
+      "ability_haste": 1.0,
+      "ap": 1.0,
+      "mana_regen": 0.7,
+      "hp": 0.3
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 550,
+      "mp": 340,
+      "armor": 26,
+      "spellblock": 30,
+      "attackdamage": 49,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 259.0
+    },
+    "info": {
+      "attack": 5,
+      "defense": 2,
+      "magic": 8,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "enchanter"
+  },
+  {
+    "name": "Soraka",
+    "champion_id": "Soraka",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 60,
+    "stat_weights": {
+      "ability_haste": 1.0,
+      "ap": 1.0,
+      "mana_regen": 0.7,
+      "hp": 0.6
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 605,
+      "mp": 425,
+      "armor": 32,
+      "spellblock": 30,
+      "attackdamage": 50,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1580.0,
+      "hp": 10.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 5,
+      "magic": 7,
+      "difficulty": 3
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "enchanter"
+  },
+  {
+    "name": "Swain",
+    "champion_id": "Swain",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 595,
+      "mp": 400,
+      "armor": 25,
+      "spellblock": 31,
+      "attackdamage": 58,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 1697.0,
+      "hp": 2.48
+    },
+    "info": {
+      "attack": 2,
+      "defense": 6,
+      "magic": 9,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Sylas",
+    "champion_id": "Sylas",
+    "roles": [
+      "Mage",
+      "Assassin"
+    ],
+    "damage_profile": 1,
+    "archetype": 21,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.9,
+      "ability_haste": 0.5,
+      "hp": 0.6
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 400,
+      "armor": 29,
+      "spellblock": 32,
+      "attackdamage": 61,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ap": 2720.0,
+      "hp": 75.0
+    },
+    "info": {
+      "attack": 3,
+      "defense": 4,
+      "magic": 8,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "assassin_ap"
+  },
+  {
+    "name": "Syndra",
+    "champion_id": "Syndra",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 563,
+      "mp": 480,
+      "armor": 25,
+      "spellblock": 30,
+      "attackdamage": 54,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 2030.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 3,
+      "magic": 9,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Tahm Kench",
+    "champion_id": "TahmKench",
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 51,
+    "stat_weights": {
+      "hp": 0.9,
+      "armor": 1.0,
+      "mr": 0.9,
+      "ability_haste": 0.5,
+      "ap": 1.0
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 640,
+      "mp": 325,
+      "armor": 39,
+      "spellblock": 32,
+      "attackdamage": 56,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ap": 1602.5,
+      "hp": 55.0
+    },
+    "info": {
+      "attack": 3,
+      "defense": 9,
+      "magic": 6,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_warden"
+  },
+  {
+    "name": "Taliyah",
+    "champion_id": "Taliyah",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 11,
+    "stat_weights": {
+      "ap": 1.0,
+      "mana": 0.7,
+      "ability_haste": 0.8,
+      "hp": 0.4
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 550,
+      "mp": 470,
+      "armor": 18,
+      "spellblock": 28,
+      "attackdamage": 58,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 2275.0
+    },
+    "info": {
+      "attack": 1,
+      "defense": 7,
+      "magic": 8,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "control_mage"
+  },
+  {
+    "name": "Talon",
+    "champion_id": "Talon",
+    "roles": [
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 658,
+      "mp": 400,
+      "armor": 30,
+      "spellblock": 36,
+      "attackdamage": 68,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 3450.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 3,
+      "magic": 1,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Taric",
+    "champion_id": "Taric",
+    "roles": [
+      "Support",
+      "Tank"
+    ],
+    "damage_profile": 2,
+    "archetype": 62,
+    "stat_weights": {
+      "hp": 0.9,
+      "armor": 0.8,
+      "mr": 0.7,
+      "ability_haste": 0.8,
+      "ap": 1.0
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      4,
+      5
+    ],
+    "base_stats": {
+      "hp": 645,
+      "mp": 300,
+      "armor": 40,
+      "spellblock": 28,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "hp": 55.0,
+      "ap": 250.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 8,
+      "magic": 5,
+      "difficulty": 3
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "tank_support"
+  },
+  {
+    "name": "Teemo",
+    "champion_id": "Teemo",
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 615,
+      "mp": 334,
+      "armor": 24,
+      "spellblock": 30,
+      "attackdamage": 54,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 500
+    },
+    "spell_ratios": {
+      "ap": 1517.5
+    },
+    "info": {
+      "attack": 5,
+      "defense": 3,
+      "magic": 7,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Thresh",
+    "champion_id": "Thresh",
+    "roles": [
+      "Support",
+      "Tank"
+    ],
+    "damage_profile": 2,
+    "archetype": 61,
+    "stat_weights": {
+      "ability_haste": 0.8,
+      "ap": 1.0,
+      "hp": 0.5,
+      "mana": 0.6,
+      "ad": 0.95
+    },
+    "mana_need": 0.5,
+    "weaknesses": [],
+    "base_stats": {
+      "hp": 620,
+      "mp": 274,
+      "armor": 33,
+      "spellblock": 30,
+      "attackdamage": 56,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 450
+    },
+    "spell_ratios": {
+      "ap": 1100.0,
+      "ad": 1050.0
+    },
+    "info": {
+      "attack": 5,
+      "defense": 6,
+      "magic": 6,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "catcher"
+  },
+  {
+    "name": "Tristana",
+    "champion_id": "Tristana",
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.47
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 640,
+      "mp": 300,
+      "armor": 30,
+      "spellblock": 28,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ad": 3685.0,
+      "ap": 1737.5
+    },
+    "info": {
+      "attack": 9,
+      "defense": 3,
+      "magic": 5,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Trundle",
+    "champion_id": "Trundle",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5,
+      "ap": 0.04
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 650,
+      "mp": 340,
+      "armor": 37,
+      "spellblock": 32,
+      "attackdamage": 68,
+      "attackspeed": 0,
+      "movespeed": 350,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 275.0,
+      "hp": 146.25,
+      "ap": 9.75
+    },
+    "info": {
+      "attack": 7,
+      "defense": 6,
+      "magic": 2,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Tryndamere",
+    "champion_id": "Tryndamere",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 2,
+    "archetype": 42,
+    "stat_weights": {
+      "ad": 0.8,
+      "attack_speed": 0.7,
+      "lifesteal": 0.6,
+      "hp": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      5
+    ],
+    "base_stats": {
+      "hp": 696,
+      "mp": 100,
+      "armor": 33,
+      "spellblock": 32,
+      "attackdamage": 66,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "hp": 2.75,
+      "ap": 1306.0,
+      "ad": 650.0
+    },
+    "info": {
+      "attack": 10,
+      "defense": 5,
+      "magic": 2,
+      "difficulty": 5
+    },
+    "resource": "FURY",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "skirmisher"
+  },
+  {
+    "name": "Twisted Fate",
+    "champion_id": "TwistedFate",
+    "roles": [
+      "Mage",
+      "Marksman"
+    ],
+    "damage_profile": 2,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.93
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 604,
+      "mp": 333,
+      "armor": 24,
+      "spellblock": 30,
+      "attackdamage": 52,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ad": 1850.0,
+      "ap": 1725.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 2,
+      "magic": 6,
+      "difficulty": 9
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Twitch",
+    "champion_id": "Twitch",
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damage_profile": 2,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.9
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 300,
+      "armor": 27,
+      "spellblock": 30,
+      "attackdamage": 59,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1255.0,
+      "ad": 1400.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 2,
+      "magic": 3,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Udyr",
+    "champion_id": "Udyr",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 2,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 0.6,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5,
+      "ap": 1.0
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      4,
+      5
+    ],
+    "base_stats": {
+      "hp": 664,
+      "mp": 271,
+      "armor": 31,
+      "spellblock": 32,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 350,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "hp": 238.5,
+      "ad": 222.0,
+      "ap": 1782.18
+    },
+    "info": {
+      "attack": 8,
+      "defense": 7,
+      "magic": 4,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Urgot",
+    "champion_id": "Urgot",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 655,
+      "mp": 340,
+      "armor": 36,
+      "spellblock": 32,
+      "attackdamage": 63,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 350
+    },
+    "spell_ratios": {
+      "ad": 1845.0,
+      "hp": 67.5
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Varus",
+    "champion_id": "Varus",
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.23,
+      "hp": 0.6
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 320,
+      "armor": 24,
+      "spellblock": 30,
+      "attackdamage": 59,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 575
+    },
+    "spell_ratios": {
+      "ad": 2384.15,
+      "ap": 550.0,
+      "hp": 425.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 3,
+      "magic": 4,
+      "difficulty": 2
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Vayne",
+    "champion_id": "Vayne",
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 31,
+    "stat_weights": {
+      "attack_speed": 1.0,
+      "ad": 1.0,
+      "ap": 0.3,
+      "hp": 0.6
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 550,
+      "mp": 232,
+      "armor": 23,
+      "spellblock": 30,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ad": 1825.0,
+      "ap": 250.0,
+      "hp": 50.0
+    },
+    "info": {
+      "attack": 10,
+      "defense": 1,
+      "magic": 1,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "on_hit_marksman"
+  },
+  {
+    "name": "Veigar",
+    "champion_id": "Veigar",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 580,
+      "mp": 490,
+      "armor": 18,
+      "spellblock": 32,
+      "attackdamage": 52,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1525.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 10,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Vel'Koz",
+    "champion_id": "Velkoz",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 590,
+      "mp": 469,
+      "armor": 22,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 1453.86
+    },
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 10,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Vex",
+    "champion_id": "Vex",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 11,
+    "stat_weights": {
+      "ap": 1.0,
+      "mana": 0.7,
+      "ability_haste": 0.8,
+      "hp": 0.4
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 590,
+      "mp": 490,
+      "armor": 23,
+      "spellblock": 28,
+      "attackdamage": 54,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1595.0
+    },
+    "info": {
+      "attack": 0,
+      "defense": 0,
+      "magic": 0,
+      "difficulty": 0
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "control_mage"
+  },
+  {
+    "name": "Vi",
+    "champion_id": "Vi",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.26
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 655,
+      "mp": 295,
+      "armor": 30,
+      "spellblock": 32,
+      "attackdamage": 63,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 1887.5,
+      "hp": 40.0,
+      "ap": 500.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Viego",
+    "champion_id": "Viego",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 42,
+    "stat_weights": {
+      "ad": 1.0,
+      "attack_speed": 0.7,
+      "lifesteal": 0.6,
+      "hp": 0.6,
+      "ap": 0.25
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 10000,
+      "armor": 34,
+      "spellblock": 32,
+      "attackdamage": 57,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 200
+    },
+    "spell_ratios": {
+      "hp": 90.0,
+      "ad": 2115.0,
+      "ap": 520.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 4,
+      "magic": 2,
+      "difficulty": 5
+    },
+    "resource": "NONE",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "skirmisher"
+  },
+  {
+    "name": "Viktor",
+    "champion_id": "Viktor",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 11,
+    "stat_weights": {
+      "ap": 1.0,
+      "mana": 0.7,
+      "ability_haste": 0.8,
+      "hp": 0.4,
+      "ad": 0.31
+    },
+    "mana_need": 0.6,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 405,
+      "armor": 23,
+      "spellblock": 30,
+      "attackdamage": 53,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 3235.0,
+      "ad": 1000.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 4,
+      "magic": 10,
+      "difficulty": 9
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "control_mage"
+  },
+  {
+    "name": "Vladimir",
+    "champion_id": "Vladimir",
+    "roles": [
+      "Mage",
+      "Fighter"
+    ],
+    "damage_profile": 1,
+    "archetype": 12,
+    "stat_weights": {
+      "ap": 1.0,
+      "hp": 0.6,
+      "ability_haste": 0.7,
+      "armor": 0.3,
+      "mr": 0.3
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 2,
+      "armor": 24,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 450
+    },
+    "spell_ratios": {
+      "ap": 2655.0,
+      "hp": 131.25
+    },
+    "info": {
+      "attack": 2,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 7
+    },
+    "resource": "CRIMSON_RUSH",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "battlemage"
+  },
+  {
+    "name": "Volibear",
+    "champion_id": "Volibear",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5,
+      "ap": 0.42
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      4,
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 650,
+      "mp": 350,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 65,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 150
+    },
+    "spell_ratios": {
+      "ad": 1850.0,
+      "hp": 255.0,
+      "ap": 775.0
+    },
+    "info": {
+      "attack": 7,
+      "defense": 7,
+      "magic": 4,
+      "difficulty": 3
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Warwick",
+    "champion_id": "Warwick",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.59
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 620,
+      "mp": 280,
+      "armor": 33,
+      "spellblock": 32,
+      "attackdamage": 65,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "hp": 50.0,
+      "ad": 1701.0,
+      "ap": 1000.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 3
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Xayah",
+    "champion_id": "Xayah",
+    "roles": [
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 340,
+      "armor": 25,
+      "spellblock": 30,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ad": 1875.0
+    },
+    "info": {
+      "attack": 10,
+      "defense": 6,
+      "magic": 1,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Xerath",
+    "champion_id": "Xerath",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.7,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 596,
+      "mp": 400,
+      "armor": 22,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 525
+    },
+    "spell_ratios": {
+      "ap": 2501.78
+    },
+    "info": {
+      "attack": 1,
+      "defense": 3,
+      "magic": 10,
+      "difficulty": 8
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Xin Zhao",
+    "champion_id": "XinZhao",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 0,
+    "archetype": 40,
+    "stat_weights": {
+      "ad": 1.0,
+      "hp": 0.8,
+      "ability_haste": 0.6,
+      "armor": 0.4,
+      "ap": 0.56
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      2
+    ],
+    "base_stats": {
+      "hp": 620,
+      "mp": 274,
+      "armor": 35,
+      "spellblock": 32,
+      "attackdamage": 63,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 2300.0,
+      "ap": 1280.0,
+      "hp": 45.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 6,
+      "magic": 3,
+      "difficulty": 2
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "bruiser"
+  },
+  {
+    "name": "Yasuo",
+    "champion_id": "Yasuo",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 2,
+    "archetype": 42,
+    "stat_weights": {
+      "ad": 1.0,
+      "attack_speed": 0.7,
+      "lifesteal": 0.6,
+      "hp": 0.5,
+      "ap": 0.91
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      5
+    ],
+    "base_stats": {
+      "hp": 590,
+      "mp": 100,
+      "armor": 32,
+      "spellblock": 32,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 1400.0,
+      "ap": 1275.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 4,
+      "magic": 4,
+      "difficulty": 10
+    },
+    "resource": "FLOW",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "skirmisher"
+  },
+  {
+    "name": "Yone",
+    "champion_id": "Yone",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 42,
+    "stat_weights": {
+      "ad": 1.0,
+      "attack_speed": 0.7,
+      "lifesteal": 0.6,
+      "hp": 0.6
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      5,
+      2
+    ],
+    "base_stats": {
+      "hp": 620,
+      "mp": 500,
+      "armor": 33,
+      "spellblock": 32,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 1005.0,
+      "hp": 120.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 4,
+      "magic": 4,
+      "difficulty": 8
+    },
+    "resource": "FLOW",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "skirmisher"
+  },
+  {
+    "name": "Yorick",
+    "champion_id": "Yorick",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "damage_profile": 2,
+    "archetype": 41,
+    "stat_weights": {
+      "ad": 0.6,
+      "hp": 1.0,
+      "armor": 0.7,
+      "mr": 0.5,
+      "ability_haste": 0.5,
+      "ap": 1.0
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      4,
+      5
+    ],
+    "base_stats": {
+      "hp": 650,
+      "mp": 300,
+      "armor": 36,
+      "spellblock": 32,
+      "attackdamage": 62,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ad": 250.0,
+      "hp": 115.0,
+      "ap": 1015.0
+    },
+    "info": {
+      "attack": 6,
+      "defense": 6,
+      "magic": 4,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "juggernaut"
+  },
+  {
+    "name": "Yunara",
+    "champion_id": "Yunara",
+    "roles": [
+      "Marksman"
+    ],
+    "damage_profile": 2,
+    "archetype": 31,
+    "stat_weights": {
+      "attack_speed": 1.0,
+      "ad": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0
+    ],
+    "base_stats": {
+      "hp": 590,
+      "mp": 275,
+      "armor": 25,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 575
+    },
+    "spell_ratios": {
+      "ap": 1556.25,
+      "ad": 675.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 2,
+      "magic": 0,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "hybrid",
+    "_debug_arch": "on_hit_marksman"
+  },
+  {
+    "name": "Yuumi",
+    "champion_id": "Yuumi",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 60,
+    "stat_weights": {
+      "ability_haste": 1.0,
+      "ap": 1.0,
+      "mana_regen": 0.7,
+      "hp": 0.3
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 500,
+      "mp": 440,
+      "armor": 25,
+      "spellblock": 25,
+      "attackdamage": 49,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 425
+    },
+    "spell_ratios": {
+      "ap": 1197.75
+    },
+    "info": {
+      "attack": 5,
+      "defense": 1,
+      "magic": 8,
+      "difficulty": 2
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "enchanter"
+  },
+  {
+    "name": "Zaahen",
+    "champion_id": "Zaahen",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.4,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 640,
+      "mp": 350,
+      "armor": 36,
+      "spellblock": 32,
+      "attackdamage": 63,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 175
+    },
+    "spell_ratios": {},
+    "info": {
+      "attack": 8,
+      "defense": 6,
+      "magic": 1,
+      "difficulty": 2
+    },
+    "resource": "Mana",
+    "damage_intensity": "low",
+    "_debug_dp": "physical",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Zac",
+    "champion_id": "Zac",
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "damage_profile": 1,
+    "archetype": 50,
+    "stat_weights": {
+      "hp": 1.0,
+      "armor": 0.9,
+      "mr": 0.8,
+      "ability_haste": 0.6,
+      "ap": 1.0
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      4,
+      5,
+      3
+    ],
+    "base_stats": {
+      "hp": 685,
+      "mp": 0,
+      "armor": 33,
+      "spellblock": 32,
+      "attackdamage": 60,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 175
+    },
+    "spell_ratios": {
+      "ap": 1370.0,
+      "hp": 45.0
+    },
+    "info": {
+      "attack": 3,
+      "defense": 7,
+      "magic": 7,
+      "difficulty": 8
+    },
+    "resource": "HEALTH",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "tank_vanguard"
+  },
+  {
+    "name": "Zed",
+    "champion_id": "Zed",
+    "roles": [
+      "Assassin"
+    ],
+    "damage_profile": 0,
+    "archetype": 20,
+    "stat_weights": {
+      "ad": 1.0,
+      "lethality": 0.9,
+      "ability_haste": 0.5
+    },
+    "mana_need": 0.0,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 654,
+      "mp": 200,
+      "armor": 32,
+      "spellblock": 29,
+      "attackdamage": 63,
+      "attackspeed": 0,
+      "movespeed": 345,
+      "attackrange": 125
+    },
+    "spell_ratios": {
+      "ad": 1500.0
+    },
+    "info": {
+      "attack": 9,
+      "defense": 2,
+      "magic": 1,
+      "difficulty": 7
+    },
+    "resource": "ENERGY",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "assassin_ad"
+  },
+  {
+    "name": "Zeri",
+    "champion_id": "Zeri",
+    "roles": [
+      "Marksman"
+    ],
+    "damage_profile": 0,
+    "archetype": 30,
+    "stat_weights": {
+      "ad": 1.0,
+      "crit": 1.0,
+      "attack_speed": 0.8,
+      "lifesteal": 0.5,
+      "ap": 0.33
+    },
+    "mana_need": 0.5,
+    "weaknesses": [
+      1,
+      0,
+      2
+    ],
+    "base_stats": {
+      "hp": 600,
+      "mp": 250,
+      "armor": 24,
+      "spellblock": 30,
+      "attackdamage": 56,
+      "attackspeed": 0,
+      "movespeed": 330,
+      "attackrange": 500
+    },
+    "spell_ratios": {
+      "ad": 1695.7,
+      "ap": 555.0
+    },
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "physical",
+    "_debug_arch": "marksman"
+  },
+  {
+    "name": "Ziggs",
+    "champion_id": "Ziggs",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7,
+      "hp": 0.6
+    },
+    "mana_need": 0.7,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 606,
+      "mp": 480,
+      "armor": 21,
+      "spellblock": 30,
+      "attackdamage": 55,
+      "attackspeed": 0,
+      "movespeed": 325,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 2585.0,
+      "hp": 175.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 4,
+      "magic": 9,
+      "difficulty": 4
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Zilean",
+    "champion_id": "Zilean",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 574,
+      "mp": 452,
+      "armor": 24,
+      "spellblock": 30,
+      "attackdamage": 52,
+      "attackspeed": 0,
+      "movespeed": 335,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 1050.0
+    },
+    "info": {
+      "attack": 2,
+      "defense": 5,
+      "magic": 8,
+      "difficulty": 6
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Zoe",
+    "champion_id": "Zoe",
+    "roles": [
+      "Mage"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 630,
+      "mp": 425,
+      "armor": 21,
+      "spellblock": 30,
+      "attackdamage": 58,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 550
+    },
+    "spell_ratios": {
+      "ap": 2250.0
+    },
+    "info": {
+      "attack": 1,
+      "defense": 7,
+      "magic": 8,
+      "difficulty": 5
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  },
+  {
+    "name": "Zyra",
+    "champion_id": "Zyra",
+    "roles": [
+      "Mage",
+      "Support"
+    ],
+    "damage_profile": 1,
+    "archetype": 10,
+    "stat_weights": {
+      "ap": 1.0,
+      "magic_pen": 0.8,
+      "mana": 0.6,
+      "ability_haste": 0.7
+    },
+    "mana_need": 0.3,
+    "weaknesses": [
+      1,
+      0,
+      3
+    ],
+    "base_stats": {
+      "hp": 574,
+      "mp": 418,
+      "armor": 29,
+      "spellblock": 30,
+      "attackdamage": 53,
+      "attackspeed": 0,
+      "movespeed": 340,
+      "attackrange": 575
+    },
+    "spell_ratios": {
+      "ap": 835.0
+    },
+    "info": {
+      "attack": 4,
+      "defense": 3,
+      "magic": 8,
+      "difficulty": 7
+    },
+    "resource": "MANA",
+    "damage_intensity": "high",
+    "_debug_dp": "magic",
+    "_debug_arch": "burst_mage"
+  }
+]
