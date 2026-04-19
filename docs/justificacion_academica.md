@@ -45,7 +45,6 @@ El campo `priority` (1=EARLY, 2=MID, 3=LATE) en cada item es un ejemplo de **dat
 El dominio de LoL es conceptualmente un grafo (campeón→counters→campeón, campeón→builds→item). Neo4j sería una alternativa válida para queries tipo "qué items están más conectados a campeones que ganan contra esta comp". Sin embargo, MongoDB se justifica porque:
 - El patrón de acceso no requiere traversals profundos
 - El dataset es pequeño (~170 campeones, ~140 items)
-- La asignatura se centra en bases de datos documentales
 
 ## 6. Limitaciones
 
