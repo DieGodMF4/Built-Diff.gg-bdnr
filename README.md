@@ -1,4 +1,4 @@
-# 🎮 LoL Draft Item Recommender v3
+# BuiltDiff.gg
 
 Sistema de recomendación de itemización para **League of Legends** que genera una **build sugerida (core + situacionales)** a partir del draft:
 
@@ -289,6 +289,4 @@ Archivo principal: `config.py`
 
 ## Documento académico
 
-Si este proyecto forma parte de una práctica/TFG:
-
-- `docs/justificacion_academica.md` explica la elección de MongoDB, la codificación entera (BSON) y el enfoque de datos derivados como `priority`.
+Se incluye un documento con la justificación académica en el contexto del desarrollo del proyecto.
